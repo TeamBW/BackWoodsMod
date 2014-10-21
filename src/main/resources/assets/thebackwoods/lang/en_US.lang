@@ -1,0 +1,43 @@
+# Items
+item.thebackwoods:mapleLeaf.name=Maple Leaf
+
+# Blocks
+tile.thebackwoods:mapleLeaves.name=Maple Leaves
+tile.thebackwoods:mapleWood.name=Maple Wood
+tile.thebackwoods:mapleWoodPlanks.name=Maple Planks
+tile.thebackwoods:redwoodLeaves.name=Redwood Leaves
+tile.thebackwoods:redwoodWood.name=Redwood Wood
+tile.thebackwoods:redwoodPlanks.name=Redwood Planks
+tile.thebackwoods:greatOakLeaves.name=Great Oak Leaves
+tile.thebackwoods:greatOakWood.name=Great Oak Wood
+tile.thebackwoods:greatOakPlanks.name=Great Oak Planks
+tile.thebackwoods:mossyGreatOakWood.name=Mossy Great Oak Wood
+tile.thebackwoods:puddingStone.name=Pudding Stone
+tile.thebackwoods:mossyRock.name=Mossy Rock
+tile.thebackwoods:mossyDirt.name=Mossy Dirt
+tile.thebackwoods:path.name=Path
+tile.thebackwoods:mossyPath.name=Mossy Path
+tile.thebackwoods:granite.name=Granite
+tile.thebackwoods:mud.name=Mud
+tile.thebackwoods:mossyGranite.name=Mossy Granite
+tile.thebackwoods:quickSand.name=Quick Sand
+
+# Need Textures
+tile.thebackwoods:smoothPuddingStone.name=Smooth Pudding Stone
+
+# WIP Stuff
+tile.thebackwoods:smeltery.name=Smeltery [WIP]
+tile.thebackwoods:smelteryAdvanced.name=Advanced Smeltery [WIP]
+tile.thebackwoods:soilGarden.name=Garden Soil [WIP]
+tile.thebackwoods:fertileLand.name=Fertile Land [WIP]
+
+# Test Stuff
+tile.thebackwoods:test.name=Test Block [DO NOT USE]
+
+# Creative Tabs
+itemGroup.thebackwoods=The BackWoods
+
+# Keys
+keys.thebackwoods.category=The BackWoods
+keys.thebackwoods.charge=Charge
+keys.thebackwoods.release=Release
