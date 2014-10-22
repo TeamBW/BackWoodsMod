@@ -1,5 +1,8 @@
 # Items
 item.thebackwoods:mapleLeaf.name=Maple Leaf
+item.thebackwoods:amethystItem.name=Maple Leaf
+item.thebackwoods:rubyItem.name=Maple Leaf
+item.thebackwoods:sapphireItem.name=Maple Leaf
 
 # Blocks
 tile.thebackwoods:mapleLeaves.name=Maple Leaves
@@ -20,7 +23,32 @@ tile.thebackwoods:mossyPath.name=Mossy Path
 tile.thebackwoods:granite.name=Granite
 tile.thebackwoods:mud.name=Mud
 tile.thebackwoods:mossyGranite.name=Mossy Granite
-tile.thebackwoods:quickSand.name=Quick Sand
+tile.thebackwoods:quickSand.name=Quick Sand [WIP]
+tile.thebackwoods:clearGlass.name=Clear Glass
+tile.thebackwoods:clearGlassBlack.name=Clear Glass Black
+tile.thebackwoods:clearGlassBlue.name=Clear Glass Blue
+tile.thebackwoods:clearGlassBrown.name=Clear Glass Brown
+tile.thebackwoods:clearGlassCyan.name=Clear Glass Cyan
+tile.thebackwoods:clearGlassGray.name=Clear Glass Gray
+tile.thebackwoods:clearGlassGreen.name=Clear Glass Green
+tile.thebackwoods:clearGlassLightBlue.name=Clear Glass Light Blue
+tile.thebackwoods:clearGlassLightGray.name=Clear Glass Light Gray
+tile.thebackwoods:clearGlassLime.name=Clear Glass Lime
+tile.thebackwoods:clearGlassMagenta.name=Clear Glass Magenta
+tile.thebackwoods:clearGlassOrange.name=Clear Glass Orange
+tile.thebackwoods:clearGlassPink.name=Clear Glass Pink
+tile.thebackwoods:clearGlassPurple.name=Clear Glass Purple
+tile.thebackwoods:clearGlassRed.name=Clear Glass Red
+tile.thebackwoods:clearGlassWhite.name=Clear Glass White
+tile.thebackwoods:clearGlassYellow.name=Clear Glass Yellow
+tile.thebackwoods:amethyst.name=Block Of Amethyst
+tile.thebackwoods:amethystOre.name=Amethyst Ore [WIP]
+tile.thebackwoods:ruby.name=Block Of Ruby
+tile.thebackwoods:rubyOre.name=Ruby Ore [WIP]
+tile.thebackwoods:sapphire.name=Block Of Sapphire
+tile.thebackwoods:sapphireOre.name=Sapphire Ore [WIP]
+tile.thebackwoods:driedDirt.name=Dried Dirt
+tile.thebackwoods:advancedCraftingTable.name=Advanced Crafting Table [WIP]
 
 # Need Textures
 tile.thebackwoods:smoothPuddingStone.name=Smooth Pudding Stone
