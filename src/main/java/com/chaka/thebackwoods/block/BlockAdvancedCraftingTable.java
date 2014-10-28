@@ -9,5 +9,6 @@ public class BlockAdvancedCraftingTable extends BlockTBW {
         super(Material.wood);
         this.setBlockName("advancedCraftingTable");
         this.setStepSound(soundTypeWood);
+        this.setHardness(1.5F);
     }
 }

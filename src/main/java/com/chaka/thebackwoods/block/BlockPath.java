@@ -10,5 +10,6 @@ public class BlockPath extends BlockTBW {
         this.setBlockName("path");
         this.setStepSound(soundTypeStone);
         this.getHarvestLevel(1);
+        this.setHardness(1.5F);
     }
 }

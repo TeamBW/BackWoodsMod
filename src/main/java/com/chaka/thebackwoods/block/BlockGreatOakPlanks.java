@@ -9,5 +9,6 @@ public class BlockGreatOakPlanks extends BlockTBW {
         super(Material.wood);
         this.setBlockName("greatOakPlanks");
         this.setStepSound(soundTypeWood);
+        this.setHardness(1.5F);
     }
 }

@@ -58,9 +58,19 @@ public class ModBlocks {
     public static final BlockTBW ruby = new BlockRuby();
     public static final BlockTBW sapphireOre = new BlockSapphireOre();
     public static final BlockTBW sapphire = new BlockSapphire();
+    public static final BlockTBW firWood = new BlockFirWood();
+    public static final BlockTBW firPlanks = new BlockFirPlanks();
+    public static final BlockTBW firLeaves = new BlockFirLeaves();
+    public static final BlockTBW moss = new BlockMoss();
+    public static final BlockTBW firWoodSlab = new BlockFirWoodSlab();
+    public static final BlockTBW greatOakWoodSlab = new BlockGreatOakWoodSlab();
+    public static final BlockTBW mapleWoodSlab = new BlockMapleWoodSlab();
+    public static final BlockTBW redwoodSlab = new BlockRedwoodSlab();
+    public static final BlockTBW refinedObsidian = new BlockRefinedObsidian();
 
     //Test Block
     public static final BlockTest test = new BlockTest();
+    public static final BlockTBW slab = new BlockSlab();
 
     public static void init() {
 
@@ -113,8 +123,18 @@ public class ModBlocks {
         GameRegistry.registerBlock(ruby, "ruby");
         GameRegistry.registerBlock(sapphireOre, "sapphireOre");
         GameRegistry.registerBlock(sapphire, "sapphire");
+        GameRegistry.registerBlock(firWood, "firWood");
+        GameRegistry.registerBlock(firPlanks, "firPlanks");
+        GameRegistry.registerBlock(firLeaves, "firLeaves");
+        GameRegistry.registerBlock(moss, "moss");
+        GameRegistry.registerBlock(greatOakWoodSlab, "greatOakWoodSlab");
+        GameRegistry.registerBlock(firWoodSlab, "firWoodSlab");
+        GameRegistry.registerBlock(mapleWoodSlab, "mapleWoodSlab");
+        GameRegistry.registerBlock(redwoodSlab, "redwoodSlab");
+        GameRegistry.registerBlock(refinedObsidian, "refinedObsidian");
 
         //Test Block
         GameRegistry.registerBlock(test, "test");
+        GameRegistry.registerBlock(slab, "slab");
     }
 }

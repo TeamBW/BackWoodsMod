@@ -9,5 +9,6 @@ public class BlockMossyDirt extends BlockTBW {
         super(Material.grass);
         this.setBlockName("mossyDirt");
         this.setStepSound(soundTypeGravel);
+        this.setHardness(1.5F);
     }
 }

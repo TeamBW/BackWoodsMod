@@ -1,10 +1,16 @@
 package com.chaka.thebackwoods.block;
 
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockBush;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraftforge.common.EnumPlantType;
 import net.minecraftforge.common.ForgeHooks;
+import net.minecraftforge.common.IPlantable;
+import net.minecraftforge.common.util.ForgeDirection;
 
 public class BlockFertileLand extends BlockTBW {
 
@@ -13,6 +19,7 @@ public class BlockFertileLand extends BlockTBW {
         super(Material.grass);
         this.setBlockName("fertileLand");
         this.setStepSound(soundTypeGravel);
+        this.setHardness(1.5F);
     }
 
     public boolean isFertile(World world, int x, int y, int z)

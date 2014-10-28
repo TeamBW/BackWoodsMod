@@ -8,7 +8,7 @@ public class BlockMossyGreatOakWood extends BlockTBW {
 
         super(Material.wood);
         this.setBlockName("mossyGreatOakWood");
-        this.setHardness(0.5F);
+        this.setHardness(1.5F);
         this.setStepSound(soundTypeWood);
     }
 }

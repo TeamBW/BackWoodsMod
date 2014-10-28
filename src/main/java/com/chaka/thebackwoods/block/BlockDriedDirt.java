@@ -9,5 +9,6 @@ public class BlockDriedDirt extends BlockTBW {
         super(Material.ground);
         this.setBlockName("driedDirt");
         this.setStepSound(soundTypeGravel);
+        this.setHardness(1.5F);
     }
 }

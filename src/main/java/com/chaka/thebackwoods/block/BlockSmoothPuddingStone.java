@@ -8,5 +8,6 @@ public class BlockSmoothPuddingStone extends BlockTBW {
 
         super(Material.rock);
         this.setBlockName("smoothPuddingStone");
+        this.setHardness(1.5F);
     }
 }

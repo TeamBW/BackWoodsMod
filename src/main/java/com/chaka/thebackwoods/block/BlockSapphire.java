@@ -9,5 +9,6 @@ public class BlockSapphire extends BlockTBW {
         super(Material.iron);
         this.setBlockName("sapphire");
         this.setStepSound(soundTypeMetal);
+        this.setHardness(5.0F);
     }
 }

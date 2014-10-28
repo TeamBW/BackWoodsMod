@@ -9,6 +9,7 @@ public class BlockClearGlassGreen extends BlockTBW {
         super(Material.glass);
         this.setBlockName("clearGlassGreen");
         this.setStepSound(soundTypeGlass);
+        this.setHardness(2.5F);
     }
 
     public boolean isOpaqueCube(){

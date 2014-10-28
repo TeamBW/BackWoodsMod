@@ -9,5 +9,6 @@ public class BlockMud extends BlockTBW {
         super(Material.ground);
         this.setBlockName("mud");
         this.setStepSound(soundTypeGravel);
+        this.setHardness(0.5F);
     }
 }

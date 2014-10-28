@@ -2,6 +2,7 @@ package com.chaka.thebackwoods.block;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
 
 public class BlockMapleLeaves extends BlockTBW {
 
@@ -10,6 +11,7 @@ public class BlockMapleLeaves extends BlockTBW {
         super(Material.leaves);
         this.setBlockName("mapleLeaves");
         this.setStepSound(soundTypeGrass);
+        this.setHardness(1.5F);
     }
 
     public boolean isOpaqueCube(){
@@ -26,4 +28,7 @@ public class BlockMapleLeaves extends BlockTBW {
     {
         return true;
     }
+
+    public void beginLeavesDecay(World world, int x, int y, int z){}
+
 }

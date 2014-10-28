@@ -1,8 +1,8 @@
 # Items
 item.thebackwoods:mapleLeaf.name=Maple Leaf
-item.thebackwoods:amethystItem.name=Maple Leaf
-item.thebackwoods:rubyItem.name=Maple Leaf
-item.thebackwoods:sapphireItem.name=Maple Leaf
+item.thebackwoods:amethystItem.name=Amethyst
+item.thebackwoods:rubyItem.name=Ruby
+item.thebackwoods:sapphireItem.name=Sapphire
 
 # Blocks
 tile.thebackwoods:mapleLeaves.name=Maple Leaves
@@ -61,6 +61,7 @@ tile.thebackwoods:fertileLand.name=Fertile Land [WIP]
 
 # Test Stuff
 tile.thebackwoods:test.name=Test Block [DO NOT USE]
+tile.thebackwoods:slab.name=Test Block [DO NOT USE]
 
 # Creative Tabs
 itemGroup.thebackwoods=The BackWoods

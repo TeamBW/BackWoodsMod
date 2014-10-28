@@ -1,7 +1,24 @@
 package com.chaka.thebackwoods.block;
 
-/**
- * Created by Christopher on 10/18/2014.
- */
-public class BlockMoss {
+import net.minecraft.block.material.Material;
+
+public class BlockMoss extends BlockTBW {
+
+    public BlockMoss() {
+
+        super(Material.sponge);
+        this.setBlockName("moss");
+        this.setStepSound(soundTypeGrass);
+        this.setHardness(0.5F);
+    }
+
+    public boolean isOpaqueCube(){
+
+        return false;
+    }
+
+    public boolean getCanBlockGrass() {
+
+        return false;
+    }
 }

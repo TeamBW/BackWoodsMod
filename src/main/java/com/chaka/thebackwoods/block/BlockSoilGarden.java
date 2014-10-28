@@ -13,6 +13,7 @@ public class BlockSoilGarden extends BlockTBW {
         super(Material.grass);
         this.setBlockName("soilGarden");
         this.setStepSound(soundTypeGravel);
+        this.setHardness(1.5F);
     }
 
     public boolean isFertile(World world, int x, int y, int z)

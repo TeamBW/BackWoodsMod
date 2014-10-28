@@ -3,6 +3,7 @@ package com.chaka.thebackwoods;
 import com.chaka.thebackwoods.handler.ConfigurationHandler;
 import com.chaka.thebackwoods.init.ModBlocks;
 import com.chaka.thebackwoods.init.ModItems;
+import com.chaka.thebackwoods.init.Recipes;
 import com.chaka.thebackwoods.proxy.IProxy;
 import com.chaka.thebackwoods.reference.Reference;
 import com.chaka.thebackwoods.utility.LogHelper;
@@ -40,6 +41,7 @@ public class TheBackWoods {
     public void init(FMLInitializationEvent event) {
 
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        Recipes.init();
 
         LogHelper.info("Initialization Complete");
     }

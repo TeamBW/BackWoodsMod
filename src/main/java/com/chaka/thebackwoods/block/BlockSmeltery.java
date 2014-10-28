@@ -9,5 +9,6 @@ public class BlockSmeltery extends BlockTBW {
         super(Material.rock);
         this.setBlockName("smeltery");
         this.setStepSound(soundTypeStone);
+        this.setHardness(5.0F);
     }
 }

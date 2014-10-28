@@ -12,6 +12,7 @@ public class BlockRedwoodLeaves extends BlockTBW {
         super(Material.leaves);
         this.setBlockName("redwoodLeaves");
         this.setStepSound(soundTypeGrass);
+        this.setHardness(1.5F);
     }
 
     public boolean isOpaqueCube(){
@@ -28,4 +29,6 @@ public class BlockRedwoodLeaves extends BlockTBW {
     {
         return true;
     }
+
+    public void beginLeavesDecay(World world, int x, int y, int z){}
 }

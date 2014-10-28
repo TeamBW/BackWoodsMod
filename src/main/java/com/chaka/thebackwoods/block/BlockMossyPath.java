@@ -10,5 +10,6 @@ public class BlockMossyPath extends BlockTBW {
         this.setBlockName("mossyPath");
         this.setStepSound(soundTypeStone);
         this.getHarvestLevel(1);
+        this.setHardness(1.5F);
     }
 }

@@ -9,5 +9,6 @@ public class BlockGranite extends BlockTBW {
         super(Material.rock);
         this.setBlockName("granite");
         this.setStepSound(soundTypeStone);
+        this.setHardness(2.0F);
     }
 }

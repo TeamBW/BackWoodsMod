@@ -9,5 +9,6 @@ public class BlockSmelteryAdvanced extends BlockTBW {
         super(Material.iron);
         this.setBlockName("smelteryAdvanced");
         this.setStepSound(soundTypeMetal);
+        this.setHardness(5.0F);
     }
 }

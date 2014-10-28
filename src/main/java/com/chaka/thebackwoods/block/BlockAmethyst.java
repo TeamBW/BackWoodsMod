@@ -11,10 +11,13 @@ public class BlockAmethyst extends BlockTBW {
         super(Material.iron);
         this.setBlockName("amethyst");
         this.setStepSound(soundTypeMetal);
+        this.setHardness(5.0F);
     }
 
     public boolean isBeaconBase(IBlockAccess worldObj, int x, int y, int z, int beaconX, int beaconY, int beaconZ) {
 
         return this == Blocks.emerald_block || this == Blocks.gold_block || this == Blocks.diamond_block || this == Blocks.iron_block;
     }
+
+
 }

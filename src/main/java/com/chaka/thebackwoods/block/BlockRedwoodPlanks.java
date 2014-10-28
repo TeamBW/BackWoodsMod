@@ -9,5 +9,6 @@ public class BlockRedwoodPlanks extends BlockTBW {
         super(Material.wood);
         this.setBlockName("redwoodPlanks");
         this.setStepSound(soundTypeWood);
+        this.setHardness(1.5F);
     }
 }
