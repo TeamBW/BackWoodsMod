@@ -1,8 +1,6 @@
 package com.chaka.thebackwoods.item;
 
-import com.chaka.thebackwoods.creativetab.CreativeTabTBW;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class ItemAmethyst extends ItemTBW {

@@ -67,6 +67,9 @@ public class ModBlocks {
     public static final BlockTBW mapleWoodSlab = new BlockMapleWoodSlab();
     public static final BlockTBW redwoodSlab = new BlockRedwoodSlab();
     public static final BlockTBW refinedObsidian = new BlockRefinedObsidian();
+    public static final BlockTBW deadWood = new BlockDeadWood();
+    public static final BlockTBW deadWoodPlanks = new BlockDeadWoodPlanks();
+    public static final BlockTBW deadWoodSlab = new BlockDeadWoodSlab();
 
     //Test Block
     public static final BlockTest test = new BlockTest();
@@ -132,6 +135,9 @@ public class ModBlocks {
         GameRegistry.registerBlock(mapleWoodSlab, "mapleWoodSlab");
         GameRegistry.registerBlock(redwoodSlab, "redwoodSlab");
         GameRegistry.registerBlock(refinedObsidian, "refinedObsidian");
+        GameRegistry.registerBlock(deadWood, "deadWood");
+        GameRegistry.registerBlock(deadWoodPlanks, "deadWoodPlanks");
+        GameRegistry.registerBlock(deadWoodSlab, "deadWoodSlab");
 
         //Test Block
         GameRegistry.registerBlock(test, "test");

@@ -1,6 +1,5 @@
 package com.chaka.thebackwoods.item;
 
-import com.chaka.thebackwoods.creativetab.CreativeTabTBW;
 import com.chaka.thebackwoods.creativetab.CreativeTabTBWTools;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

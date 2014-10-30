@@ -1,6 +1,6 @@
 package com.chaka.thebackwoods.block;
 
-import com.chaka.thebackwoods.creativetab.CreativeTabTBW;
+import com.chaka.thebackwoods.creativetab.CreativeTabTBWBlocks;
 import com.chaka.thebackwoods.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,7 +13,7 @@ public class BlockTBW extends Block {
     public BlockTBW(Material material) {
 
         super(material);
-        this.setCreativeTab(CreativeTabTBW.TBW_TAB);
+        this.setCreativeTab(CreativeTabTBWBlocks.TBW_TAB_BLOCKS);
     }
 
     @Override
