@@ -23,6 +23,7 @@ public class ModItems {
     public static final ItemTBW rubySpade = new ItemRubySpade();
     public static final ItemTBW rubyAxe = new ItemRubyAxe();
     public static final ItemTBW rubyHoe = new ItemRuby();
+    public static final ItemTBW sapphirePickaxe = new ItemSapphirePickaxe();
 
     public static void init() {
 
@@ -45,5 +46,6 @@ public class ModItems {
         GameRegistry.registerItem(rubySpade, "rubySpade");
         GameRegistry.registerItem(rubyAxe, "rubyAxe");
         GameRegistry.registerItem(rubyHoe, "rubyHoe");
+        GameRegistry.registerItem(sapphirePickaxe, "sapphirePickaxe");
     }
 }

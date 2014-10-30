@@ -1,6 +1,9 @@
 package com.chaka.thebackwoods.item;
 
 import com.chaka.thebackwoods.creativetab.CreativeTabTBW;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class ItemAmethyst extends ItemTBW {
 
@@ -8,5 +11,10 @@ public class ItemAmethyst extends ItemTBW {
 
         super();
         this.setUnlocalizedName("amethystItem");
+    }
+
+    public boolean isBeaconPayment(ItemStack stack)
+    {
+        return this == Items.emerald || this == Items.diamond || this == Items.gold_ingot || this == Items.iron_ingot;
     }
 }

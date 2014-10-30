@@ -1,6 +1,7 @@
 package com.chaka.thebackwoods.block;
 
 import com.chaka.thebackwoods.creativetab.CreativeTabTBW;
+import com.chaka.thebackwoods.creativetab.CreativeTabTBWItems;
 import com.chaka.thebackwoods.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,9 +14,10 @@ public class BlockTest extends Block {
     public BlockTest() {
 
         super(Material.sand);
-        this.setCreativeTab(CreativeTabTBW.TBW_TAB);
+        this.setCreativeTab(CreativeTabTBWItems.TBW_TAB_ITEMS);
         this.setBlockName("Test");
         this.setStepSound(soundTypeSand);
+
     }
 
     @Override

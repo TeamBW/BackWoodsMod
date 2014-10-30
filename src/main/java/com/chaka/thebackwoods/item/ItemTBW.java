@@ -1,6 +1,7 @@
 package com.chaka.thebackwoods.item;
 
 import com.chaka.thebackwoods.creativetab.CreativeTabTBW;
+import com.chaka.thebackwoods.creativetab.CreativeTabTBWItems;
 import com.chaka.thebackwoods.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,7 +14,7 @@ public class ItemTBW extends Item {
     public ItemTBW() {
 
         super();
-        this.setCreativeTab(CreativeTabTBW.TBW_TAB);
+        this.setCreativeTab(CreativeTabTBWItems.TBW_TAB_ITEMS);
     }
 
     @Override

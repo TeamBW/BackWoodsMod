@@ -17,4 +17,5 @@ public class ItemAmethystSword extends ItemTBW {
     public boolean isFull3D() {
         return true;
     }
+
 }
