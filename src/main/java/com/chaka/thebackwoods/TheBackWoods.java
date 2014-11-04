@@ -7,12 +7,16 @@ import com.chaka.thebackwoods.init.Recipes;
 import com.chaka.thebackwoods.proxy.IProxy;
 import com.chaka.thebackwoods.reference.Reference;
 import com.chaka.thebackwoods.utility.LogHelper;
+import com.chaka.thebackwoods.world.OreGeneration;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.Item;
+import net.minecraftforge.common.util.EnumHelper;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class TheBackWoods {
@@ -35,6 +39,8 @@ public class TheBackWoods {
         ModBlocks.init();
 
         LogHelper.info("Pre Initialization Complete");
+
+        GameRegistry.registerWorldGenerator(new OreGeneration(), 0);
     }
 
     @Mod.EventHandler

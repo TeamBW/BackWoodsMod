@@ -7,13 +7,14 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
 
 public class BlockTest extends Block {
 
     public BlockTest() {
 
         super(Material.sand);
-        this.setCreativeTab(CreativeTabTBWItems.TBW_TAB_ITEMS);
         this.setBlockName("Test");
         this.setStepSound(soundTypeSand);
 

@@ -3,6 +3,21 @@ item.thebackwoods:mapleLeaf.name=Maple Leaf
 item.thebackwoods:amethystItem.name=Amethyst
 item.thebackwoods:rubyItem.name=Ruby
 item.thebackwoods:sapphireItem.name=Sapphire
+item.thebackwoods:amethystSword.name=Amethyst Sword
+item.thebackwoods:amethystPickaxe.name=Amethyst Pickaxe
+item.thebackwoods:amethystShovel.name=Amethyst Shovel
+item.thebackwoods:amethystAxe.name=Amethyst Axe
+item.thebackwoods:amethystHoe.name=Amethyst Hoe
+item.thebackwoods:rubySword.name=Ruby Sword
+item.thebackwoods:rubyPickaxe.name=Ruby PickAxe
+item.thebackwoods:rubyShovel.name=Ruby Shovel
+item.thebackwoods:rubyAxe.name=Ruby Axe
+item.thebackwoods:rubyHoe.name=Ruby Hoe
+item.thebackwoods:sapphireSword.name=Sapphire Sword
+item.thebackwoods:sapphirePickaxe.name=Sapphire Pickaxe
+item.thebackwoods:sapphireShovel.name=Sapphire Shovel
+item.thebackwoods:sapphireAxe.name=Sapphire Axe
+item.thebackwoods:sapphireHoe.name=Sapphire Hoe
 
 # Blocks
 tile.thebackwoods:mapleLeaves.name=Maple Leaves
@@ -48,10 +63,19 @@ tile.thebackwoods:rubyOre.name=Ruby Ore [WIP]
 tile.thebackwoods:sapphire.name=Block Of Sapphire
 tile.thebackwoods:sapphireOre.name=Sapphire Ore [WIP]
 tile.thebackwoods:driedDirt.name=Dried Dirt
-tile.thebackwoods:advancedCraftingTable.name=Advanced Crafting Table [WIP]
+tile.thebackwoods:firWood.name=Fir Wood
+tile.thebackwoods:firPlanks.name=Fir Wood Planks
+tile.thebackwoods:firLeaves.name=Fir Wood Leaves
+tile.thebackwoods:moss.name=Moss
+tile.thebackwoods:redwoodSlab.name=Redwood Slab
+tile.thebackwoods:greatOakWoodSlab.name=Great Oak Wood Slab
+tile.thebackwoods:mapleWoodSlab.name=Maple Wood Slab
+tile.thebackwoods:refinedObsidian.name=Refined Obsidian
+tile.thebackwoods:deadWoodPlanks.name=Dead Wood Planks
+tile.thebackwoods:deadWoodSlab.name=Dead Wood Slab
+tile.thebackwoods:deadWood.name=Dead Wood
 
 # Need Textures
-tile.thebackwoods:smoothPuddingStone.name=Smooth Pudding Stone
 
 # WIP Stuff
 tile.thebackwoods:smeltery.name=Smeltery [WIP]
@@ -60,10 +84,12 @@ tile.thebackwoods:soilGarden.name=Garden Soil [WIP]
 tile.thebackwoods:fertileLand.name=Fertile Land [WIP]
 
 # Test Stuff
-tile.thebackwoods:test.name=Test Block [DO NOT USE]
+tile.thebackwoods:Test.name=Test Block [DO NOT USE]
 tile.thebackwoods:slab.name=Test Block [DO NOT USE]
 
 # Creative Tabs
+itemGroup.thebackwoods=The BackWoods
+itemGroup.thebackwoods=The BackWoods
 itemGroup.thebackwoods=The BackWoods
 
 # Keys

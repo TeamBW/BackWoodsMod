@@ -1,10 +1,13 @@
 package com.chaka.thebackwoods.init;
 
 import com.chaka.thebackwoods.block.*;
+import com.chaka.thebackwoods.block.clearglass.*;
+import com.chaka.thebackwoods.block.ore.BlockAmethystOre;
+import com.chaka.thebackwoods.block.ore.BlockRubyOre;
+import com.chaka.thebackwoods.block.ore.BlockSapphireOre;
+import com.chaka.thebackwoods.block.wood.*;
 import com.chaka.thebackwoods.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.world.IBlockAccess;
-import net.minecraft.world.World;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModBlocks {
@@ -28,10 +31,8 @@ public class ModBlocks {
     public static final BlockTBW mossyGranite = new BlockMossyGranite();
     public static final BlockTBW mud = new BlockMud();
     public static final BlockTBW quickSand = new BlockQuickSand();
-    public static final BlockTBW smoothPuddingStone = new BlockSmoothPuddingStone();
     public static final BlockTBW smeltery = new BlockSmeltery();
     public static final BlockTBW smelteryAdvanced = new BlockSmelteryAdvanced();
-    public static final BlockTBW advancedCraftingTable = new BlockAdvancedCraftingTable();
     public static final BlockTBW soilGarden = new BlockSoilGarden();
     public static final BlockTBW fertileLand = new BlockFertileLand();
     public static final BlockTBW clearGlass = new BlockClearGlass();
@@ -73,7 +74,6 @@ public class ModBlocks {
 
     //Test Block
     public static final BlockTest test = new BlockTest();
-    public static final BlockTBW slab = new BlockSlab();
 
     public static void init() {
 
@@ -96,10 +96,8 @@ public class ModBlocks {
         GameRegistry.registerBlock(mossyGranite, "mossyGranite");
         GameRegistry.registerBlock(mud, "mud");
         GameRegistry.registerBlock(quickSand, "quickSand");
-        GameRegistry.registerBlock(smoothPuddingStone, "smoothPuddingStone");
         GameRegistry.registerBlock(smeltery, "smeltery");
         GameRegistry.registerBlock(smelteryAdvanced, "smelteryAdvanced");
-        GameRegistry.registerBlock(advancedCraftingTable, "advancedCraftingTable");
         GameRegistry.registerBlock(soilGarden, "soilGarden");
         GameRegistry.registerBlock(fertileLand, "fertileLand");
         GameRegistry.registerBlock(clearGlass, "clearGlass");
@@ -141,6 +139,5 @@ public class ModBlocks {
 
         //Test Block
         GameRegistry.registerBlock(test, "test");
-        GameRegistry.registerBlock(slab, "slab");
     }
 }
