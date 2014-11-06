@@ -1470,8 +1470,8 @@
 [20:06:59] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:redwoodSlab 227 com.chaka.thebackwoods.block.wood.BlockRedwoodSlab@2cb32c8c (req. id -1)
 [20:06:59] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.wood.BlockRedwoodSlab@2cb32c8c for ItemBlock net.minecraft.item.ItemBlock@2731b241 at id 227, original id requested: -1
 [20:06:59] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:redwoodSlab 227 net.minecraft.item.ItemBlock@2731b241 (req. id 227)
-[20:06:59] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:refinedObsidian 228 com.chaka.thebackwoods.block.wood.BlockRefinedObsidian@2faddd81 (req. id -1)
-[20:06:59] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.wood.BlockRefinedObsidian@2faddd81 for ItemBlock net.minecraft.item.ItemBlock@3fa9589b at id 228, original id requested: -1
+[20:06:59] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:refinedObsidian 228 com.chaka.thebackwoods.block.BlockRefinedObsidian@2faddd81 (req. id -1)
+[20:06:59] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockRefinedObsidian@2faddd81 for ItemBlock net.minecraft.item.ItemBlock@3fa9589b at id 228, original id requested: -1
 [20:06:59] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:refinedObsidian 228 net.minecraft.item.ItemBlock@3fa9589b (req. id 228)
 [20:06:59] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:test 229 com.chaka.thebackwoods.block.BlockTest@6f848c4 (req. id -1)
 [20:06:59] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockTest@6f848c4 for ItemBlock net.minecraft.item.ItemBlock@16713f6f at id 229, original id requested: -1
@@ -1948,7 +1948,7 @@
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:firWoodSlab 225 com.chaka.thebackwoods.block.wood.BlockFirWoodSlab@2186270c
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mapleWoodSlab 226 com.chaka.thebackwoods.block.wood.BlockMapleWoodSlab@5c945ae6
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:redwoodSlab 227 com.chaka.thebackwoods.block.wood.BlockRedwoodSlab@2cb32c8c
-[20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidian 228 com.chaka.thebackwoods.block.wood.BlockRefinedObsidian@2faddd81
+[20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidian 228 com.chaka.thebackwoods.block.BlockRefinedObsidian@2faddd81
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:test 229 com.chaka.thebackwoods.block.BlockTest@6f848c4
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:slab 230 com.chaka.thebackwoods.block.BlockSlab@64fb9beb
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: minecraft:stone 1 net.minecraft.item.ItemBlock@563e072a
@@ -2404,7 +2404,7 @@
 [20:07:13] [Server thread/TRACE] [FML/]: Registry add: minecraft:powered_repeater 94 net.minecraft.block.BlockRedstoneRepeater@2e272404 (req. id 94)
 [20:07:13] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:puddingStone 180 com.chaka.thebackwoods.block.BlockPuddingStone@1977d8b5 (req. id 180)
 [20:07:13] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:refinedObsidian: 228 (init) -> 232 (map).
-[20:07:13] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:refinedObsidian 232 com.chaka.thebackwoods.block.wood.BlockRefinedObsidian@2faddd81 (req. id 232)
+[20:07:13] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:refinedObsidian 232 com.chaka.thebackwoods.block.BlockRefinedObsidian@2faddd81 (req. id 232)
 [20:07:13] [Server thread/TRACE] [FML/]: Registry add: minecraft:rail 66 net.minecraft.block.BlockRail@577ee977 (req. id 66)
 [20:07:13] [Server thread/TRACE] [FML/]: Registry add: minecraft:acacia_stairs 163 net.minecraft.block.BlockStairs@6a4d163a (req. id 163)
 [20:07:13] [Server thread/TRACE] [FML/]: Registry add: minecraft:farmland 60 net.minecraft.block.BlockFarmland@8dc566b (req. id 60)
@@ -3224,7 +3224,7 @@
 [20:07:13] [Server thread/TRACE] [FML/]: Registry add: minecraft:redstone_ore 73 net.minecraft.item.ItemBlock@8ec5e1f (req. id 73)
 [20:07:13] [Server thread/TRACE] [FML/]: Registry add: minecraft:emerald 388 net.minecraft.item.Item@6ae98b52 (req. id 388)
 [20:07:13] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:refinedObsidian: 228 (init) -> 232 (map).
-[20:07:13] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.wood.BlockRefinedObsidian@2faddd81 for ItemBlock net.minecraft.item.ItemBlock@3fa9589b at id 232, original id requested: 232
+[20:07:13] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockRefinedObsidian@2faddd81 for ItemBlock net.minecraft.item.ItemBlock@3fa9589b at id 232, original id requested: 232
 [20:07:13] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:refinedObsidian 232 net.minecraft.item.ItemBlock@3fa9589b (req. id 232)
 [20:07:13] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockLever@6ff37cc7 for ItemBlock net.minecraft.item.ItemBlock@4e7fb0d9 at id 69, original id requested: 69
 [20:07:13] [Server thread/TRACE] [FML/]: Registry add: minecraft:lever 69 net.minecraft.item.ItemBlock@4e7fb0d9 (req. id 69)
@@ -3469,7 +3469,7 @@
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:firWoodSlab 228 com.chaka.thebackwoods.block.wood.BlockFirWoodSlab@2186270c
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:greatOakWoodSlab 229 com.chaka.thebackwoods.block.wood.BlockGreatOakWoodSlab@4a08356e
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mapleWoodSlab 231 com.chaka.thebackwoods.block.wood.BlockMapleWoodSlab@5c945ae6
-[20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidian 232 com.chaka.thebackwoods.block.wood.BlockRefinedObsidian@2faddd81
+[20:07:13] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidian 232 com.chaka.thebackwoods.block.BlockRefinedObsidian@2faddd81
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: minecraft:stone 1 net.minecraft.item.ItemBlock@563e072a
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: minecraft:grass 2 net.minecraft.item.ItemBlock@1574f1d
 [20:07:13] [Server thread/TRACE] [FML/]: Registry: minecraft:dirt 3 net.minecraft.item.ItemMultiTexture@38d03cfd

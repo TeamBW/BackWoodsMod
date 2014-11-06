@@ -8,6 +8,7 @@ import com.chaka.thebackwoods.block.ore.BlockSapphireOre;
 import com.chaka.thebackwoods.block.wood.*;
 import com.chaka.thebackwoods.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.BlockChest;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModBlocks {
@@ -31,8 +32,6 @@ public class ModBlocks {
     public static final BlockTBW mossyGranite = new BlockMossyGranite();
     public static final BlockTBW mud = new BlockMud();
     public static final BlockTBW quickSand = new BlockQuickSand();
-    public static final BlockTBW smeltery = new BlockSmeltery();
-    public static final BlockTBW smelteryAdvanced = new BlockSmelteryAdvanced();
     public static final BlockTBW soilGarden = new BlockSoilGarden();
     public static final BlockTBW fertileLand = new BlockFertileLand();
     public static final BlockTBW clearGlass = new BlockClearGlass();
@@ -71,6 +70,8 @@ public class ModBlocks {
     public static final BlockTBW deadWood = new BlockDeadWood();
     public static final BlockTBW deadWoodPlanks = new BlockDeadWoodPlanks();
     public static final BlockTBW deadWoodSlab = new BlockDeadWoodSlab();
+    public static final BlockTBW driedGrass = new BlockDriedGrass();
+    public static final BlockTestChest testChest = new BlockTestChest(0);
 
     //Test Block
     public static final BlockTest test = new BlockTest();
@@ -96,8 +97,6 @@ public class ModBlocks {
         GameRegistry.registerBlock(mossyGranite, "mossyGranite");
         GameRegistry.registerBlock(mud, "mud");
         GameRegistry.registerBlock(quickSand, "quickSand");
-        GameRegistry.registerBlock(smeltery, "smeltery");
-        GameRegistry.registerBlock(smelteryAdvanced, "smelteryAdvanced");
         GameRegistry.registerBlock(soilGarden, "soilGarden");
         GameRegistry.registerBlock(fertileLand, "fertileLand");
         GameRegistry.registerBlock(clearGlass, "clearGlass");
@@ -136,6 +135,7 @@ public class ModBlocks {
         GameRegistry.registerBlock(deadWood, "deadWood");
         GameRegistry.registerBlock(deadWoodPlanks, "deadWoodPlanks");
         GameRegistry.registerBlock(deadWoodSlab, "deadWoodSlab");
+        GameRegistry.registerBlock(driedGrass, "driedGrass");
 
         //Test Block
         GameRegistry.registerBlock(test, "test");

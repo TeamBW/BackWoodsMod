@@ -1,4 +1,4 @@
-package com.chaka.thebackwoods.block.wood;
+package com.chaka.thebackwoods.block;
 
 import com.chaka.thebackwoods.block.BlockTBW;
 import net.minecraft.block.material.Material;

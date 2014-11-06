@@ -1,9 +1,11 @@
 package com.chaka.thebackwoods.init;
 
 import com.chaka.thebackwoods.item.*;
+import com.chaka.thebackwoods.item.armor.*;
 import com.chaka.thebackwoods.item.tool.*;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems {
@@ -13,8 +15,12 @@ public class ModItems {
     public static final Item.ToolMaterial rubyToolMaterial = EnumHelper.addToolMaterial("rubyToolMaterial", 2, 1600, 7.0F, 5.0F, 30);
     public static final Item.ToolMaterial sapphireToolMaterial = EnumHelper.addToolMaterial("sapphireToolMaterial", 3, 2000, 8.0F, 6.5F, 30);
 
+    //Armor Constructors
+    public static final ItemArmor.ArmorMaterial amethystArmorMaterial = EnumHelper.addArmorMaterial("amethystArmorMaterial", 4600, new int[]{5,10,8,6}, 30);
+    public static final ItemArmor.ArmorMaterial sapphireArmorMaterial = EnumHelper.addArmorMaterial("sapphireArmorMaterial", 3600, new int[]{4,9,7,5}, 30);
+    public static final ItemArmor.ArmorMaterial rubyArmorMaterial = EnumHelper.addArmorMaterial("rubyArmorMaterial", 2600, new int[]{3,8,6,4}, 30);
 
-    public static final ItemTBW mapleLeaf = new ItemMapleLeaf();
+
     public static final ItemTBW amethystItem = new ItemAmethyst();
     public static final ItemTBW rubyItem = new ItemRuby();
     public static final ItemTBW sapphireItem = new ItemSapphire();
@@ -42,13 +48,18 @@ public class ModItems {
     public static final ItemTBWAxe sapphireAxe = new ItemSapphireAxe(sapphireToolMaterial);
     public static final ItemTBWHoe sapphireHoe = new ItemSapphireHoe(sapphireToolMaterial);
 
+    //Armor
+    public static final ItemTBWArmor amethystHelmet = new ItemAmethystHelmet(amethystArmorMaterial, 0, 0);
+    public static final ItemTBWArmor amethystChestplate = new ItemAmethystChestplate(amethystArmorMaterial, 0, 1);
+    public static final ItemTBWArmor amethystLeggings = new ItemAmethystLeggings(amethystArmorMaterial, 0, 2);
+    public static final ItemTBWArmor amethystBoots = new ItemAmethystBoots(amethystArmorMaterial, 0, 3);
+
     //Test
     public static  final  ItemTBWTest testItem = new ItemTest();
 
 
     public static void init() {
 
-        GameRegistry.registerItem(mapleLeaf, "mapleLeaf");
         GameRegistry.registerItem(amethystItem, "amethystItem");
         GameRegistry.registerItem(rubyItem, "rubyItem");
         GameRegistry.registerItem(sapphireItem, "sapphireItem");
@@ -76,6 +87,12 @@ public class ModItems {
         GameRegistry.registerItem(sapphireShovel, "sapphireShovel");
         GameRegistry.registerItem(sapphireAxe, "sapphireAxe");
         GameRegistry.registerItem(sapphireHoe, "sapphireHoe");
+
+        //Armor
+        GameRegistry.registerItem(amethystHelmet, "amethystHelmet");
+        GameRegistry.registerItem(amethystChestplate, "amethystChestplate");
+        GameRegistry.registerItem(amethystLeggings, "amethystLeggings");
+        GameRegistry.registerItem(amethystBoots, "amethystBoots");
 
         //Test
         GameRegistry.registerItem(testItem,"testItem");

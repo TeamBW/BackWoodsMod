@@ -1,5 +1,6 @@
 package com.chaka.thebackwoods;
 
+import com.chaka.thebackwoods.entity.EntityTBW;
 import com.chaka.thebackwoods.handler.ConfigurationHandler;
 import com.chaka.thebackwoods.init.ModBlocks;
 import com.chaka.thebackwoods.init.ModItems;
@@ -8,6 +9,8 @@ import com.chaka.thebackwoods.proxy.IProxy;
 import com.chaka.thebackwoods.reference.Reference;
 import com.chaka.thebackwoods.utility.LogHelper;
 import com.chaka.thebackwoods.world.OreGeneration;
+import com.chaka.thebackwoods.world.biome.BiomeRegistry;
+import com.chaka.thebackwoods.world.biome.WorldTypeBackWoods;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -16,10 +19,13 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
-import net.minecraftforge.common.util.EnumHelper;
+import net.minecraft.item.ItemFood;
+import net.minecraft.world.WorldType;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class TheBackWoods {
+
+    public static Item chakaMeat;
 
     @Mod.Instance(Reference.MOD_ID)
     public static TheBackWoods instance;
@@ -41,6 +47,13 @@ public class TheBackWoods {
         LogHelper.info("Pre Initialization Complete");
 
         GameRegistry.registerWorldGenerator(new OreGeneration(), 0);
+
+        BiomeRegistry.MainRegistry();
+
+        EntityTBW.mainRegistry();
+
+        chakaMeat = new ItemFood(5, 1.0F, true).setUnlocalizedName("chakaMeat");
+        GameRegistry.registerItem(chakaMeat, chakaMeat.getUnlocalizedName().substring(5));
     }
 
     @Mod.EventHandler
@@ -56,5 +69,7 @@ public class TheBackWoods {
     public void postInit (FMLPostInitializationEvent event) {
 
         LogHelper.info("Post Initialization Complete");
+
+        WorldType BACKWOODS = new WorldTypeBackWoods(3, "backWoods");
     }
 }

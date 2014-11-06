@@ -1,7 +1,9 @@
 package com.chaka.thebackwoods.init;
 
+import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -37,26 +39,46 @@ public class Recipes {
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.sapphireHoe), "## ", " S ", " S ", '#', new ItemStack(ModItems.sapphireItem), 'S', new ItemStack(Item.getItemById(280)));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.sapphireHoe), " ##", " S ", " S ", '#', new ItemStack(ModItems.sapphireItem), 'S', new ItemStack(Item.getItemById(280)));
 
-        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.amethyst), "sss", "sss", "sss", 's', new ItemStack(ModItems.amethystItem));
-        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.moss), "sss", "sss", "sss", 's', new ItemStack(ModItems.mossItem));
-        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.ruby), "sss", "sss", "sss", 's', new ItemStack(ModItems.rubyItem));
-        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.sapphire), "sss", "sss", "sss", 's', new ItemStack(ModItems.sapphireItem));
-        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smeltery), " s ", "sss", "sss", 's', new ItemStack(Block.getBlockById(61)));
-        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smelteryAdvanced), " s ", "sss", "sss", 's', new ItemStack(ModBlocks.smeltery));
+        //DeadWood Recipes
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.deadWoodPlanks, 4), new ItemStack(ModBlocks.deadWood));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.deadWoodSlab), "   ", "   ", "###", '#', new ItemStack(ModBlocks.deadWoodPlanks));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.deadWoodSlab), "   ", "###", "   ", '#', new ItemStack(ModBlocks.deadWoodPlanks));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.deadWoodSlab), "###", "   ", "   ", '#', new ItemStack(ModBlocks.deadWoodPlanks));
 
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.firPlanks), new ItemStack(ModBlocks.firWood));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.greatOakPlanks), new ItemStack(ModBlocks.greatOakWood));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.redwoodPlanks), new ItemStack(ModBlocks.redwoodWood));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.mapleWoodPlanks), new ItemStack(ModBlocks.mapleWood));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.granite), new ItemStack(Block.getBlockById(1)), new ItemStack(Block.getBlockById(4)), new ItemStack(Item.getItemById(406)));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.mossyDirt), new ItemStack(Item.getItemById(3)), new ItemStack(ModItems.mossItem));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.mossyGranite), new ItemStack(ModBlocks.granite), new ItemStack(ModItems.mossItem));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.mossyGreatOakWood), new ItemStack(ModBlocks.greatOakWood), new ItemStack(ModItems.mossItem));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.mossyPath), new ItemStack(ModBlocks.path), new ItemStack(ModItems.mossItem));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.mossyRock), new ItemStack(Block.getBlockById(1)), new ItemStack(ModItems.mossItem));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.mud), new ItemStack(Block.getBlockById(326)), new ItemStack(Block.getBlockById(3)));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.path), new ItemStack(Block.getBlockById(98)), new ItemStack(Block.getBlockById(98)), new ItemStack(Block.getBlockById(98)), new ItemStack(Block.getBlockById(98)));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.quickSand), new ItemStack(Block.getBlockById(12)), new ItemStack(Block.getBlockById(326)));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.mossItem), new ItemStack(Block.getBlockById(106)), new ItemStack(Block.getBlockById(106)), new ItemStack(Block.getBlockById(106)), new ItemStack(Block.getBlockById(106)));
+        //Fir Wood Recipes
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.firPlanks, 4), new ItemStack(ModBlocks.firWood));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.firWoodSlab), "   ", "   ", "###", '#', new ItemStack(ModBlocks.firPlanks));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.firWoodSlab), "   ", "###", "   ", '#', new ItemStack(ModBlocks.firPlanks));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.firWoodSlab), "###", "   ", "   ", '#', new ItemStack(ModBlocks.firPlanks));
+
+        //GreatOak Wood Recipes
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.greatOakPlanks, 4), new ItemStack(ModBlocks.greatOakWood));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.greatOakPlanks), "   ", "   ", "###", '#', new ItemStack(ModBlocks.greatOakPlanks));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.greatOakPlanks), "   ", "###", "   ", '#', new ItemStack(ModBlocks.greatOakPlanks));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.greatOakPlanks), "###", "   ", "   ", '#', new ItemStack(ModBlocks.greatOakPlanks));
+
+        //Maple Wood Recipes
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.mapleWoodPlanks, 4), new ItemStack(ModBlocks.mapleWood));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.mapleWoodSlab), "   ", "   ", "###", '#', new ItemStack(ModBlocks.mapleWoodPlanks));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.mapleWoodSlab), "   ", "###", "   ", '#', new ItemStack(ModBlocks.mapleWoodPlanks));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.mapleWoodSlab), "###", "   ", "   ", '#', new ItemStack(ModBlocks.mapleWoodPlanks));
+
+        //Redwood Wood Recipes
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.redwoodPlanks, 4), new ItemStack(ModBlocks.redwoodWood));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.redwoodSlab), "   ", "   ", "###", '#', new ItemStack(ModBlocks.redwoodPlanks));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.redwoodSlab), "   ", "###", "   ", '#', new ItemStack(ModBlocks.redwoodPlanks));
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.redwoodSlab), "###", "   ", "   ", '#', new ItemStack(ModBlocks.redwoodPlanks));
+
+        //Other Shaped Recipes
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.amethyst), "###", "###", "###", '#', new ItemStack(ModBlocks.redwoodPlanks));
+
+        //Other Shapeless Recipes
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.granite), new ItemStack(Blocks.stone), new ItemStack(Blocks.dirt), new ItemStack(Blocks.gravel));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.moss), new ItemStack(Blocks.vine), new ItemStack(Blocks.vine), new ItemStack(Blocks.vine), new ItemStack(Blocks.vine));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.path), new ItemStack(Blocks.stonebrick));
+
+        //Other Smelting Recipes
+        GameRegistry.addSmelting(new ItemStack(Blocks.dirt), new ItemStack(ModBlocks.driedDirt), 5.0F);
+        GameRegistry.addSmelting(new ItemStack(Blocks.glass), new ItemStack(ModBlocks.clearGlass), 5.0F);
     }
 }

@@ -1,5 +1,6 @@
 package com.chaka.thebackwoods.item;
 
+import com.chaka.thebackwoods.init.ModItems;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 

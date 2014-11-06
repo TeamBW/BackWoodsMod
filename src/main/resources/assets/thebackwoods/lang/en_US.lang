@@ -18,6 +18,10 @@ item.thebackwoods:sapphirePickaxe.name=Sapphire Pickaxe
 item.thebackwoods:sapphireShovel.name=Sapphire Shovel
 item.thebackwoods:sapphireAxe.name=Sapphire Axe
 item.thebackwoods:sapphireHoe.name=Sapphire Hoe
+item.thebackwoods:mossItem.name=Moss
+item.thebackwoods:refiningPowder.name=Refining Powder
+item.thebackwoods:obsidianIngot.name=Obsidian Ingot
+item.thebackwoods:refinedObsidianIngot.name=Refined Obsidian Ingot
 
 # Blocks
 tile.thebackwoods:mapleLeaves.name=Maple Leaves
@@ -38,7 +42,6 @@ tile.thebackwoods:mossyPath.name=Mossy Path
 tile.thebackwoods:granite.name=Granite
 tile.thebackwoods:mud.name=Mud
 tile.thebackwoods:mossyGranite.name=Mossy Granite
-tile.thebackwoods:quickSand.name=Quick Sand [WIP]
 tile.thebackwoods:clearGlass.name=Clear Glass
 tile.thebackwoods:clearGlassBlack.name=Clear Glass Black
 tile.thebackwoods:clearGlassBlue.name=Clear Glass Blue
@@ -57,15 +60,16 @@ tile.thebackwoods:clearGlassRed.name=Clear Glass Red
 tile.thebackwoods:clearGlassWhite.name=Clear Glass White
 tile.thebackwoods:clearGlassYellow.name=Clear Glass Yellow
 tile.thebackwoods:amethyst.name=Block Of Amethyst
-tile.thebackwoods:amethystOre.name=Amethyst Ore [WIP]
+tile.thebackwoods:amethystOre.name=Amethyst Ore
 tile.thebackwoods:ruby.name=Block Of Ruby
-tile.thebackwoods:rubyOre.name=Ruby Ore [WIP]
+tile.thebackwoods:rubyOre.name=Ruby Ore
 tile.thebackwoods:sapphire.name=Block Of Sapphire
-tile.thebackwoods:sapphireOre.name=Sapphire Ore [WIP]
+tile.thebackwoods:sapphireOre.name=Sapphire Ore
 tile.thebackwoods:driedDirt.name=Dried Dirt
 tile.thebackwoods:firWood.name=Fir Wood
 tile.thebackwoods:firPlanks.name=Fir Wood Planks
 tile.thebackwoods:firLeaves.name=Fir Wood Leaves
+tile.thebackwoods:firWoodSlab.name=Fir Wood Slab
 tile.thebackwoods:moss.name=Moss
 tile.thebackwoods:redwoodSlab.name=Redwood Slab
 tile.thebackwoods:greatOakWoodSlab.name=Great Oak Wood Slab
@@ -74,23 +78,22 @@ tile.thebackwoods:refinedObsidian.name=Refined Obsidian
 tile.thebackwoods:deadWoodPlanks.name=Dead Wood Planks
 tile.thebackwoods:deadWoodSlab.name=Dead Wood Slab
 tile.thebackwoods:deadWood.name=Dead Wood
+tile.thebackwoods:driedGrass.name=Dried Grass
 
 # Need Textures
 
 # WIP Stuff
-tile.thebackwoods:smeltery.name=Smeltery [WIP]
-tile.thebackwoods:smelteryAdvanced.name=Advanced Smeltery [WIP]
 tile.thebackwoods:soilGarden.name=Garden Soil [WIP]
 tile.thebackwoods:fertileLand.name=Fertile Land [WIP]
+tile.thebackwoods:quickSand.name=Quick Sand [WIP]
 
 # Test Stuff
 tile.thebackwoods:Test.name=Test Block [DO NOT USE]
-tile.thebackwoods:slab.name=Test Block [DO NOT USE]
 
 # Creative Tabs
-itemGroup.thebackwoods=The BackWoods
-itemGroup.thebackwoods=The BackWoods
-itemGroup.thebackwoods=The BackWoods
+itemGroup.thebackwoodsblocks=The BackWoods Blocks
+itemGroup.thebackwoodsitems=The BackWoods Items
+itemGroup.thebackwoodstools=The BackWoods Tools
 
 # Keys
 keys.thebackwoods.category=The BackWoods

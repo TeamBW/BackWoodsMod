@@ -8,7 +8,7 @@ import net.minecraft.item.Item;
 
 public class CreativeTabTBWTools {
 
-    public static final CreativeTabs TBW_TAB_TOOLS = new CreativeTabs(Reference.MOD_ID.toLowerCase()) {
+    public static final CreativeTabs TBW_TAB_TOOLS = new CreativeTabs("TheBackWoodsTools".toLowerCase()) {
         @Override
         public Item getTabIconItem() {
             return ModItems.sapphirePickaxe;

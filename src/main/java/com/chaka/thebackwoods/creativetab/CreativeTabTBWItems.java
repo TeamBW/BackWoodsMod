@@ -8,7 +8,7 @@ import net.minecraft.item.Item;
 
 public class CreativeTabTBWItems {
 
-    public static final CreativeTabs TBW_TAB_ITEMS = new CreativeTabs(Reference.MOD_ID.toLowerCase()) {
+    public static final CreativeTabs TBW_TAB_ITEMS = new CreativeTabs("TheBackWoodsItems".toLowerCase()) {
         @Override
         public Item getTabIconItem() {
             return ModItems.amethystItem;
