@@ -57,6 +57,11 @@ public class OreGeneration implements IWorldGenerator{
         generateOre(ModBlocks.sapphireOre, world, random, x, z, 5, 10, 50, 0, 28, Blocks.stone);
         generateOre(ModBlocks.amethystOre, world, random, x, z, 5, 10, 10, 0, 18, Blocks.stone);
         generateOre(ModBlocks.rubyOre, world, random, x, z, 5, 10, 10, 0, 45, Blocks.stone);
+
+        generateOre(ModBlocks.silverOre, world, random, x, z, 5, 10, 50, 0, 28, Blocks.stone);
+        generateOre(ModBlocks.tinOre, world, random, x, z, 5, 10, 50, 0, 28, Blocks.stone);
+        generateOre(ModBlocks.copperOre, world, random, x, z, 5, 10, 50, 0, 28, Blocks.stone);
+        generateOre(ModBlocks.leadOre, world, random, x, z, 5, 10, 50, 0, 28, Blocks.stone);
     }
 
     public void generateSky(World world, Random random, int x, int z) {

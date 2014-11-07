@@ -1273,18 +1273,18 @@
 [20:42:32] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLPreInitializationEvent to mod NotEnoughItems
 [20:42:32] [Client thread/TRACE] [TheBackWoods/TheBackWoods]: Sending event FMLPreInitializationEvent to mod TheBackWoods
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mapleLeaf 4096 com.chaka.thebackwoods.item.ItemMapleLeaf@64b3dbe (req. id -1)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethystItem 4097 com.chaka.thebackwoods.item.ItemAmethyst@35c2882c (req. id -1)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:rubyItem 4098 com.chaka.thebackwoods.item.ItemRuby@767a1c46 (req. id -1)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:sapphireItem 4099 com.chaka.thebackwoods.item.ItemSapphire@4ad6746e (req. id -1)
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethystItem 4097 com.chaka.thebackwoods.item.other.ItemAmethyst@35c2882c (req. id -1)
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:rubyItem 4098 com.chaka.thebackwoods.item.other.ItemRuby@767a1c46 (req. id -1)
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:sapphireItem 4099 com.chaka.thebackwoods.item.other.ItemSapphire@4ad6746e (req. id -1)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethystSword 4100 com.chaka.thebackwoods.item.tool.ItemAmethystSword@45760824 (req. id -1)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethystPick 4101 com.chaka.thebackwoods.item.tool.ItemAmethystPickaxe@4810971c (req. id -1)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethystSpade 4102 com.chaka.thebackwoods.item.tool.ItemAmethystSpade@3930d43a (req. id -1)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethystAxe 4103 com.chaka.thebackwoods.item.tool.ItemAmethystAxe@34bd492b (req. id -1)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethystHoe 4104 com.chaka.thebackwoods.item.tool.ItemAmethystHoe@770ec119 (req. id -1)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossItem 4105 com.chaka.thebackwoods.item.ItemMoss@69a78d5f (req. id -1)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:refiningPowder 4106 com.chaka.thebackwoods.item.ItemRefiningPowder@77328e29 (req. id -1)
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossItem 4105 com.chaka.thebackwoods.item.other.ItemMoss@69a78d5f (req. id -1)
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:refiningPowder 4106 com.chaka.thebackwoods.item.other.ItemRefiningPowder@77328e29 (req. id -1)
 [20:42:32] [Client thread/WARN] [FML/TheBackWoods]: ****************************************
-[20:42:32] [Client thread/WARN] [FML/TheBackWoods]: * The object com.chaka.thebackwoods.item.ItemRefiningPowder@77328e29 has been registered twice for the same name TheBackWoods:refiningPowder.
+[20:42:32] [Client thread/WARN] [FML/TheBackWoods]: * The object com.chaka.thebackwoods.item.other.ItemRefiningPowder@77328e29 has been registered twice for the same name TheBackWoods:refiningPowder.
 [20:42:32] [Client thread/WARN] [FML/TheBackWoods]: *  at cpw.mods.fml.common.registry.FMLControlledNamespacedRegistry.add(FMLControlledNamespacedRegistry.java:378)
 [20:42:32] [Client thread/WARN] [FML/TheBackWoods]: *  at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:838)
 [20:42:32] [Client thread/WARN] [FML/TheBackWoods]: *  at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:802)
@@ -1292,13 +1292,13 @@
 [20:42:32] [Client thread/WARN] [FML/TheBackWoods]: *  at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:131)
 [20:42:32] [Client thread/WARN] [FML/TheBackWoods]: *  at com.chaka.thebackwoods.init.ModItems.init(ModItems.java:41)...
 [20:42:32] [Client thread/WARN] [FML/TheBackWoods]: ****************************************
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:obsidianIngot 4107 com.chaka.thebackwoods.item.ItemObsidianIngot@181362e2 (req. id -1)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:refinedObsidianIngot 4108 com.chaka.thebackwoods.item.ItemRefinedObsidianIngot@20c0efc7 (req. id -1)
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:obsidianIngot 4107 com.chaka.thebackwoods.item.other.ItemObsidianIngot@181362e2 (req. id -1)
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:refinedObsidianIngot 4108 com.chaka.thebackwoods.item.other.ItemRefinedObsidianIngot@20c0efc7 (req. id -1)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:rubySword 4109 com.chaka.thebackwoods.item.tool.ItemRubySword@5abe029d (req. id -1)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:rubyPick 4110 com.chaka.thebackwoods.item.tool.ItemRubyPickaxe@709dbff5 (req. id -1)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:rubySpade 4111 com.chaka.thebackwoods.item.tool.ItemRubySpade@4a5a796 (req. id -1)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:rubyAxe 4112 com.chaka.thebackwoods.item.tool.ItemRubyAxe@179d6b3c (req. id -1)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:rubyHoe 4113 com.chaka.thebackwoods.item.ItemRuby@5feb3c40 (req. id -1)
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:rubyHoe 4113 com.chaka.thebackwoods.item.other.ItemRuby@5feb3c40 (req. id -1)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:sapphirePickaxe 4114 com.chaka.thebackwoods.item.tool.ItemSapphirePickaxe@4cc0bef2 (req. id -1)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mapleLeaves 165 com.chaka.thebackwoods.block.wood.BlockMapleLeaves@238293c (req. id -1)
 [20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.wood.BlockMapleLeaves@238293c for ItemBlock net.minecraft.item.ItemBlock@351b2347 at id 165, original id requested: -1
@@ -1327,35 +1327,35 @@
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:greatOakPlanks 179 com.chaka.thebackwoods.block.wood.BlockGreatOakPlanks@68a84820 (req. id -1)
 [20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.wood.BlockGreatOakPlanks@68a84820 for ItemBlock net.minecraft.item.ItemBlock@17628e at id 179, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:greatOakPlanks 179 net.minecraft.item.ItemBlock@17628e (req. id 179)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:puddingStone 180 com.chaka.thebackwoods.block.BlockPuddingStone@7f4758ad (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockPuddingStone@7f4758ad for ItemBlock net.minecraft.item.ItemBlock@250f0723 at id 180, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:puddingStone 180 com.chaka.thebackwoods.block.other.BlockPuddingStone@7f4758ad (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockPuddingStone@7f4758ad for ItemBlock net.minecraft.item.ItemBlock@250f0723 at id 180, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:puddingStone 180 net.minecraft.item.ItemBlock@250f0723 (req. id 180)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyRock 181 com.chaka.thebackwoods.block.BlockMossyRock@7d9d9dd6 (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockMossyRock@7d9d9dd6 for ItemBlock net.minecraft.item.ItemBlock@76e58d07 at id 181, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyRock 181 com.chaka.thebackwoods.block.other.BlockMossyRock@7d9d9dd6 (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockMossyRock@7d9d9dd6 for ItemBlock net.minecraft.item.ItemBlock@76e58d07 at id 181, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyRock 181 net.minecraft.item.ItemBlock@76e58d07 (req. id 181)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyDirt 182 com.chaka.thebackwoods.block.BlockMossyDirt@588e038c (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockMossyDirt@588e038c for ItemBlock net.minecraft.item.ItemBlock@538b09bf at id 182, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyDirt 182 com.chaka.thebackwoods.block.other.BlockMossyDirt@588e038c (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockMossyDirt@588e038c for ItemBlock net.minecraft.item.ItemBlock@538b09bf at id 182, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyDirt 182 net.minecraft.item.ItemBlock@538b09bf (req. id 182)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyGreatOakWood 183 com.chaka.thebackwoods.block.BlockMossyGreatOakWood@4d2d0572 (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockMossyGreatOakWood@4d2d0572 for ItemBlock net.minecraft.item.ItemBlock@46c0a6f3 at id 183, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyGreatOakWood 183 com.chaka.thebackwoods.block.other.BlockMossyGreatOakWood@4d2d0572 (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockMossyGreatOakWood@4d2d0572 for ItemBlock net.minecraft.item.ItemBlock@46c0a6f3 at id 183, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyGreatOakWood 183 net.minecraft.item.ItemBlock@46c0a6f3 (req. id 183)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:path 184 com.chaka.thebackwoods.block.BlockPath@1210bfcf (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockPath@1210bfcf for ItemBlock net.minecraft.item.ItemBlock@9a0b84d at id 184, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:path 184 com.chaka.thebackwoods.block.other.BlockPath@1210bfcf (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockPath@1210bfcf for ItemBlock net.minecraft.item.ItemBlock@9a0b84d at id 184, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:path 184 net.minecraft.item.ItemBlock@9a0b84d (req. id 184)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyPath 185 com.chaka.thebackwoods.block.BlockMossyPath@16a3cc2b (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockMossyPath@16a3cc2b for ItemBlock net.minecraft.item.ItemBlock@5bb126a9 at id 185, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyPath 185 com.chaka.thebackwoods.block.other.BlockMossyPath@16a3cc2b (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockMossyPath@16a3cc2b for ItemBlock net.minecraft.item.ItemBlock@5bb126a9 at id 185, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyPath 185 net.minecraft.item.ItemBlock@5bb126a9 (req. id 185)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:granite 186 com.chaka.thebackwoods.block.BlockGranite@73ac157 (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockGranite@73ac157 for ItemBlock net.minecraft.item.ItemBlock@226b3a76 at id 186, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:granite 186 com.chaka.thebackwoods.block.other.BlockGranite@73ac157 (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockGranite@73ac157 for ItemBlock net.minecraft.item.ItemBlock@226b3a76 at id 186, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:granite 186 net.minecraft.item.ItemBlock@226b3a76 (req. id 186)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyGranite 187 com.chaka.thebackwoods.block.BlockMossyGranite@2dcb2aa1 (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockMossyGranite@2dcb2aa1 for ItemBlock net.minecraft.item.ItemBlock@755bc783 at id 187, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyGranite 187 com.chaka.thebackwoods.block.other.BlockMossyGranite@2dcb2aa1 (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockMossyGranite@2dcb2aa1 for ItemBlock net.minecraft.item.ItemBlock@755bc783 at id 187, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mossyGranite 187 net.minecraft.item.ItemBlock@755bc783 (req. id 187)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mud 188 com.chaka.thebackwoods.block.BlockMud@5c87a5a6 (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockMud@5c87a5a6 for ItemBlock net.minecraft.item.ItemBlock@4d8c64bf at id 188, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mud 188 com.chaka.thebackwoods.block.other.BlockMud@5c87a5a6 (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockMud@5c87a5a6 for ItemBlock net.minecraft.item.ItemBlock@4d8c64bf at id 188, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:mud 188 net.minecraft.item.ItemBlock@4d8c64bf (req. id 188)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:quickSand 189 com.chaka.thebackwoods.block.BlockQuickSand@3c2a5f5f (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockQuickSand@3c2a5f5f for ItemBlock net.minecraft.item.ItemBlock@1db74d5 at id 189, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:quickSand 189 com.chaka.thebackwoods.block.other.BlockQuickSand@3c2a5f5f (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockQuickSand@3c2a5f5f for ItemBlock net.minecraft.item.ItemBlock@1db74d5 at id 189, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:quickSand 189 net.minecraft.item.ItemBlock@1db74d5 (req. id 189)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:smoothPuddingStone 190 com.chaka.thebackwoods.block.BlockSmoothPuddingStone@6ed34ce6 (req. id -1)
 [20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockSmoothPuddingStone@6ed34ce6 for ItemBlock net.minecraft.item.ItemBlock@725dc8e1 at id 190, original id requested: -1
@@ -1369,11 +1369,11 @@
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:advancedCraftingTable 193 com.chaka.thebackwoods.block.BlockAdvancedCraftingTable@123817d7 (req. id -1)
 [20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockAdvancedCraftingTable@123817d7 for ItemBlock net.minecraft.item.ItemBlock@20a52d99 at id 193, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:advancedCraftingTable 193 net.minecraft.item.ItemBlock@20a52d99 (req. id 193)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:soilGarden 194 com.chaka.thebackwoods.block.BlockSoilGarden@3c54a88d (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockSoilGarden@3c54a88d for ItemBlock net.minecraft.item.ItemBlock@37b02d20 at id 194, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:soilGarden 194 com.chaka.thebackwoods.block.other.BlockSoilGarden@3c54a88d (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockSoilGarden@3c54a88d for ItemBlock net.minecraft.item.ItemBlock@37b02d20 at id 194, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:soilGarden 194 net.minecraft.item.ItemBlock@37b02d20 (req. id 194)
-[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:fertileLand 195 com.chaka.thebackwoods.block.BlockFertileLand@f62ac70 (req. id -1)
-[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockFertileLand@f62ac70 for ItemBlock net.minecraft.item.ItemBlock@1726f4f4 at id 195, original id requested: -1
+[20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:fertileLand 195 com.chaka.thebackwoods.block.other.BlockFertileLand@f62ac70 (req. id -1)
+[20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockFertileLand@f62ac70 for ItemBlock net.minecraft.item.ItemBlock@1726f4f4 at id 195, original id requested: -1
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:fertileLand 195 net.minecraft.item.ItemBlock@1726f4f4 (req. id 195)
 [20:42:32] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:clearGlass 196 com.chaka.thebackwoods.block.clearglass.BlockClearGlass@7e9bcb0b (req. id -1)
 [20:42:32] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.clearglass.BlockClearGlass@7e9bcb0b for ItemBlock net.minecraft.item.ItemBlock@262f801d at id 196, original id requested: -1
@@ -1429,23 +1429,23 @@
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethystOre 213 com.chaka.thebackwoods.block.ore.BlockAmethystOre@5e1b5726 (req. id -1)
 [20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.ore.BlockAmethystOre@5e1b5726 for ItemBlock net.minecraft.item.ItemBlock@54f6b00e at id 213, original id requested: -1
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethystOre 213 net.minecraft.item.ItemBlock@54f6b00e (req. id 213)
-[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethyst 214 com.chaka.thebackwoods.block.BlockAmethyst@fa092b6 (req. id -1)
-[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockAmethyst@fa092b6 for ItemBlock net.minecraft.item.ItemBlock@76fff2bd at id 214, original id requested: -1
+[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethyst 214 com.chaka.thebackwoods.block.other.BlockAmethyst@fa092b6 (req. id -1)
+[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockAmethyst@fa092b6 for ItemBlock net.minecraft.item.ItemBlock@76fff2bd at id 214, original id requested: -1
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:amethyst 214 net.minecraft.item.ItemBlock@76fff2bd (req. id 214)
-[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:driedDirt 215 com.chaka.thebackwoods.block.BlockDriedDirt@1d999354 (req. id -1)
-[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockDriedDirt@1d999354 for ItemBlock net.minecraft.item.ItemBlock@4d977efa at id 215, original id requested: -1
+[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:driedDirt 215 com.chaka.thebackwoods.block.other.BlockDriedDirt@1d999354 (req. id -1)
+[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockDriedDirt@1d999354 for ItemBlock net.minecraft.item.ItemBlock@4d977efa at id 215, original id requested: -1
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:driedDirt 215 net.minecraft.item.ItemBlock@4d977efa (req. id 215)
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:rubyOre 216 com.chaka.thebackwoods.block.ore.BlockRubyOre@151176e2 (req. id -1)
 [20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.ore.BlockRubyOre@151176e2 for ItemBlock net.minecraft.item.ItemBlock@2d93fa3c at id 216, original id requested: -1
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:rubyOre 216 net.minecraft.item.ItemBlock@2d93fa3c (req. id 216)
-[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:ruby 217 com.chaka.thebackwoods.block.BlockRuby@4e119084 (req. id -1)
-[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockRuby@4e119084 for ItemBlock net.minecraft.item.ItemBlock@6326f226 at id 217, original id requested: -1
+[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:ruby 217 com.chaka.thebackwoods.block.other.BlockRuby@4e119084 (req. id -1)
+[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockRuby@4e119084 for ItemBlock net.minecraft.item.ItemBlock@6326f226 at id 217, original id requested: -1
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:ruby 217 net.minecraft.item.ItemBlock@6326f226 (req. id 217)
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:sapphireOre 218 com.chaka.thebackwoods.block.ore.BlockSapphireOre@11e3cfa5 (req. id -1)
 [20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.ore.BlockSapphireOre@11e3cfa5 for ItemBlock net.minecraft.item.ItemBlock@35562d0 at id 218, original id requested: -1
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:sapphireOre 218 net.minecraft.item.ItemBlock@35562d0 (req. id 218)
-[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:sapphire 219 com.chaka.thebackwoods.block.BlockSapphire@5aca4765 (req. id -1)
-[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockSapphire@5aca4765 for ItemBlock net.minecraft.item.ItemBlock@16156674 at id 219, original id requested: -1
+[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:sapphire 219 com.chaka.thebackwoods.block.other.BlockSapphire@5aca4765 (req. id -1)
+[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockSapphire@5aca4765 for ItemBlock net.minecraft.item.ItemBlock@16156674 at id 219, original id requested: -1
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:sapphire 219 net.minecraft.item.ItemBlock@16156674 (req. id 219)
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:firWood 220 com.chaka.thebackwoods.block.wood.BlockFirWood@56f954ff (req. id -1)
 [20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.wood.BlockFirWood@56f954ff for ItemBlock net.minecraft.item.ItemBlock@b3b5df5 at id 220, original id requested: -1
@@ -1456,8 +1456,8 @@
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:firLeaves 222 com.chaka.thebackwoods.block.wood.BlockFirLeaves@7b12e52f (req. id -1)
 [20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.wood.BlockFirLeaves@7b12e52f for ItemBlock net.minecraft.item.ItemBlock@1584afc9 at id 222, original id requested: -1
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:firLeaves 222 net.minecraft.item.ItemBlock@1584afc9 (req. id 222)
-[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:moss 223 com.chaka.thebackwoods.block.BlockMoss@3a30c028 (req. id -1)
-[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockMoss@3a30c028 for ItemBlock net.minecraft.item.ItemBlock@56979ff0 at id 223, original id requested: -1
+[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:moss 223 com.chaka.thebackwoods.block.other.BlockMoss@3a30c028 (req. id -1)
+[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockMoss@3a30c028 for ItemBlock net.minecraft.item.ItemBlock@56979ff0 at id 223, original id requested: -1
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:moss 223 net.minecraft.item.ItemBlock@56979ff0 (req. id 223)
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:greatOakWoodSlab 224 com.chaka.thebackwoods.block.wood.BlockGreatOakWoodSlab@7c8571f9 (req. id -1)
 [20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.wood.BlockGreatOakWoodSlab@7c8571f9 for ItemBlock net.minecraft.item.ItemBlock@1cfdd24d at id 224, original id requested: -1
@@ -1471,8 +1471,8 @@
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:redwoodSlab 227 com.chaka.thebackwoods.block.wood.BlockRedwoodSlab@6e68f08d (req. id -1)
 [20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.wood.BlockRedwoodSlab@6e68f08d for ItemBlock net.minecraft.item.ItemBlock@2b88f19c at id 227, original id requested: -1
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:redwoodSlab 227 net.minecraft.item.ItemBlock@2b88f19c (req. id 227)
-[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:refinedObsidian 228 com.chaka.thebackwoods.block.BlockRefinedObsidian@2bae4f18 (req. id -1)
-[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockRefinedObsidian@2bae4f18 for ItemBlock net.minecraft.item.ItemBlock@40cac70f at id 228, original id requested: -1
+[20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:refinedObsidian 228 com.chaka.thebackwoods.block.other.BlockRefinedObsidian@2bae4f18 (req. id -1)
+[20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.other.BlockRefinedObsidian@2bae4f18 for ItemBlock net.minecraft.item.ItemBlock@40cac70f at id 228, original id requested: -1
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:refinedObsidian 228 net.minecraft.item.ItemBlock@40cac70f (req. id 228)
 [20:42:33] [Client thread/TRACE] [FML/TheBackWoods]: Registry add: TheBackWoods:test 229 com.chaka.thebackwoods.block.BlockTest@40d2cb04 (req. id -1)
 [20:42:33] [Client thread/DEBUG] [FML/TheBackWoods]: Found matching Block com.chaka.thebackwoods.block.BlockTest@40d2cb04 for ItemBlock net.minecraft.item.ItemBlock@4f0e94db at id 229, original id requested: -1
@@ -1901,22 +1901,22 @@
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:greatOakWood 177 com.chaka.thebackwoods.block.wood.BlockGreatOakWood@5886dda2
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:greatOakLeaves 178 com.chaka.thebackwoods.block.wood.BlockGreatOakLeaves@563e5f74
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:greatOakPlanks 179 com.chaka.thebackwoods.block.wood.BlockGreatOakPlanks@68a84820
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:puddingStone 180 com.chaka.thebackwoods.block.BlockPuddingStone@7f4758ad
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyRock 181 com.chaka.thebackwoods.block.BlockMossyRock@7d9d9dd6
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyDirt 182 com.chaka.thebackwoods.block.BlockMossyDirt@588e038c
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyGreatOakWood 183 com.chaka.thebackwoods.block.BlockMossyGreatOakWood@4d2d0572
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:path 184 com.chaka.thebackwoods.block.BlockPath@1210bfcf
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyPath 185 com.chaka.thebackwoods.block.BlockMossyPath@16a3cc2b
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:granite 186 com.chaka.thebackwoods.block.BlockGranite@73ac157
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyGranite 187 com.chaka.thebackwoods.block.BlockMossyGranite@2dcb2aa1
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mud 188 com.chaka.thebackwoods.block.BlockMud@5c87a5a6
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:quickSand 189 com.chaka.thebackwoods.block.BlockQuickSand@3c2a5f5f
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:puddingStone 180 com.chaka.thebackwoods.block.other.BlockPuddingStone@7f4758ad
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyRock 181 com.chaka.thebackwoods.block.other.BlockMossyRock@7d9d9dd6
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyDirt 182 com.chaka.thebackwoods.block.other.BlockMossyDirt@588e038c
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyGreatOakWood 183 com.chaka.thebackwoods.block.other.BlockMossyGreatOakWood@4d2d0572
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:path 184 com.chaka.thebackwoods.block.other.BlockPath@1210bfcf
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyPath 185 com.chaka.thebackwoods.block.other.BlockMossyPath@16a3cc2b
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:granite 186 com.chaka.thebackwoods.block.other.BlockGranite@73ac157
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyGranite 187 com.chaka.thebackwoods.block.other.BlockMossyGranite@2dcb2aa1
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mud 188 com.chaka.thebackwoods.block.other.BlockMud@5c87a5a6
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:quickSand 189 com.chaka.thebackwoods.block.other.BlockQuickSand@3c2a5f5f
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:smoothPuddingStone 190 com.chaka.thebackwoods.block.BlockSmoothPuddingStone@6ed34ce6
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:smeltery 191 com.chaka.thebackwoods.block.BlockSmeltery@6b2f666f
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:smelteryAdvanced 192 com.chaka.thebackwoods.block.BlockSmelteryAdvanced@43b7e5e7
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:advancedCraftingTable 193 com.chaka.thebackwoods.block.BlockAdvancedCraftingTable@123817d7
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:soilGarden 194 com.chaka.thebackwoods.block.BlockSoilGarden@3c54a88d
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:fertileLand 195 com.chaka.thebackwoods.block.BlockFertileLand@f62ac70
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:soilGarden 194 com.chaka.thebackwoods.block.other.BlockSoilGarden@3c54a88d
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:fertileLand 195 com.chaka.thebackwoods.block.other.BlockFertileLand@f62ac70
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:clearGlass 196 com.chaka.thebackwoods.block.clearglass.BlockClearGlass@7e9bcb0b
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:clearGlassBlack 197 com.chaka.thebackwoods.block.clearglass.BlockClearGlassBlack@78840380
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:clearGlassBlue 198 com.chaka.thebackwoods.block.clearglass.BlockClearGlassBlue@59ec8024
@@ -1935,21 +1935,21 @@
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:clearGlassWhite 211 com.chaka.thebackwoods.block.clearglass.BlockClearGlassWhite@75cf247d
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:clearGlassYellow 212 com.chaka.thebackwoods.block.clearglass.BlockClearGlassYellow@3642bccd
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystOre 213 com.chaka.thebackwoods.block.ore.BlockAmethystOre@5e1b5726
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethyst 214 com.chaka.thebackwoods.block.BlockAmethyst@fa092b6
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:driedDirt 215 com.chaka.thebackwoods.block.BlockDriedDirt@1d999354
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethyst 214 com.chaka.thebackwoods.block.other.BlockAmethyst@fa092b6
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:driedDirt 215 com.chaka.thebackwoods.block.other.BlockDriedDirt@1d999354
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyOre 216 com.chaka.thebackwoods.block.ore.BlockRubyOre@151176e2
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:ruby 217 com.chaka.thebackwoods.block.BlockRuby@4e119084
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:ruby 217 com.chaka.thebackwoods.block.other.BlockRuby@4e119084
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphireOre 218 com.chaka.thebackwoods.block.ore.BlockSapphireOre@11e3cfa5
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphire 219 com.chaka.thebackwoods.block.BlockSapphire@5aca4765
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphire 219 com.chaka.thebackwoods.block.other.BlockSapphire@5aca4765
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:firWood 220 com.chaka.thebackwoods.block.wood.BlockFirWood@56f954ff
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:firPlanks 221 com.chaka.thebackwoods.block.wood.BlockFirPlanks@66958595
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:firLeaves 222 com.chaka.thebackwoods.block.wood.BlockFirLeaves@7b12e52f
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:moss 223 com.chaka.thebackwoods.block.BlockMoss@3a30c028
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:moss 223 com.chaka.thebackwoods.block.other.BlockMoss@3a30c028
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:greatOakWoodSlab 224 com.chaka.thebackwoods.block.wood.BlockGreatOakWoodSlab@7c8571f9
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:firWoodSlab 225 com.chaka.thebackwoods.block.wood.BlockFirWoodSlab@5bf9cc19
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mapleWoodSlab 226 com.chaka.thebackwoods.block.wood.BlockMapleWoodSlab@6765f707
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:redwoodSlab 227 com.chaka.thebackwoods.block.wood.BlockRedwoodSlab@6e68f08d
-[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidian 228 com.chaka.thebackwoods.block.BlockRefinedObsidian@2bae4f18
+[20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidian 228 com.chaka.thebackwoods.block.other.BlockRefinedObsidian@2bae4f18
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:test 229 com.chaka.thebackwoods.block.BlockTest@40d2cb04
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:slab 230 com.chaka.thebackwoods.block.BlockSlab@464ede69
 [20:42:54] [Server thread/TRACE] [FML/]: Registry: minecraft:stone 1 net.minecraft.item.ItemBlock@4e65575
@@ -2328,23 +2328,23 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: minecraft:record_11 2266 net.minecraft.item.ItemRecord@504b98b5
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: minecraft:record_wait 2267 net.minecraft.item.ItemRecord@1316bc42
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mapleLeaf 4096 com.chaka.thebackwoods.item.ItemMapleLeaf@64b3dbe
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystItem 4097 com.chaka.thebackwoods.item.ItemAmethyst@35c2882c
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyItem 4098 com.chaka.thebackwoods.item.ItemRuby@767a1c46
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphireItem 4099 com.chaka.thebackwoods.item.ItemSapphire@4ad6746e
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystItem 4097 com.chaka.thebackwoods.item.other.ItemAmethyst@35c2882c
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyItem 4098 com.chaka.thebackwoods.item.other.ItemRuby@767a1c46
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphireItem 4099 com.chaka.thebackwoods.item.other.ItemSapphire@4ad6746e
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystSword 4100 com.chaka.thebackwoods.item.tool.ItemAmethystSword@45760824
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystPick 4101 com.chaka.thebackwoods.item.tool.ItemAmethystPickaxe@4810971c
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystSpade 4102 com.chaka.thebackwoods.item.tool.ItemAmethystSpade@3930d43a
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystAxe 4103 com.chaka.thebackwoods.item.tool.ItemAmethystAxe@34bd492b
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystHoe 4104 com.chaka.thebackwoods.item.tool.ItemAmethystHoe@770ec119
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossItem 4105 com.chaka.thebackwoods.item.ItemMoss@69a78d5f
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refiningPowder 4106 com.chaka.thebackwoods.item.ItemRefiningPowder@77328e29
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:obsidianIngot 4107 com.chaka.thebackwoods.item.ItemObsidianIngot@181362e2
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidianIngot 4108 com.chaka.thebackwoods.item.ItemRefinedObsidianIngot@20c0efc7
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossItem 4105 com.chaka.thebackwoods.item.other.ItemMoss@69a78d5f
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refiningPowder 4106 com.chaka.thebackwoods.item.other.ItemRefiningPowder@77328e29
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:obsidianIngot 4107 com.chaka.thebackwoods.item.other.ItemObsidianIngot@181362e2
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidianIngot 4108 com.chaka.thebackwoods.item.other.ItemRefinedObsidianIngot@20c0efc7
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubySword 4109 com.chaka.thebackwoods.item.tool.ItemRubySword@5abe029d
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyPick 4110 com.chaka.thebackwoods.item.tool.ItemRubyPickaxe@709dbff5
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubySpade 4111 com.chaka.thebackwoods.item.tool.ItemRubySpade@4a5a796
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyAxe 4112 com.chaka.thebackwoods.item.tool.ItemRubyAxe@179d6b3c
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyHoe 4113 com.chaka.thebackwoods.item.ItemRuby@5feb3c40
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyHoe 4113 com.chaka.thebackwoods.item.other.ItemRuby@5feb3c40
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphirePickaxe 4114 com.chaka.thebackwoods.item.tool.ItemSapphirePickaxe@4cc0bef2
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:wooden_pressure_plate 72 net.minecraft.block.BlockPressurePlate@16526d7a (req. id 72)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:redwoodWood 169 com.chaka.thebackwoods.block.wood.BlockRedwoodWood@3959b9e2 (req. id 169)
@@ -2356,14 +2356,14 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:portal 90 net.minecraft.block.BlockPortal@246e78aa (req. id 90)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:sapling 6 net.minecraft.block.BlockSapling@3cd45618 (req. id 6)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:moss: 223 (init) -> 225 (map).
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:moss 225 com.chaka.thebackwoods.block.BlockMoss@3a30c028 (req. id 225)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:moss 225 com.chaka.thebackwoods.block.other.BlockMoss@3a30c028 (req. id 225)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:iron_door 71 net.minecraft.block.BlockDoor@61a6edfc (req. id 71)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:lapis_ore 21 net.minecraft.block.BlockOre@677d39b5 (req. id 21)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:unpowered_comparator 149 net.minecraft.block.BlockRedstoneComparator@61e1db6 (req. id 149)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:redstone_lamp 123 net.minecraft.block.BlockRedstoneLight@de548a2 (req. id 123)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyGranite 187 com.chaka.thebackwoods.block.BlockMossyGranite@2dcb2aa1 (req. id 187)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyGranite 187 com.chaka.thebackwoods.block.other.BlockMossyGranite@2dcb2aa1 (req. id 187)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:dragon_egg 122 net.minecraft.block.BlockDragonEgg@60d20e1a (req. id 122)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyPath 185 com.chaka.thebackwoods.block.BlockMossyPath@16a3cc2b (req. id 185)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyPath 185 com.chaka.thebackwoods.block.other.BlockMossyPath@16a3cc2b (req. id 185)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:waterlily 111 net.minecraft.block.BlockLilyPad@773f8807 (req. id 111)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:netherrack 87 net.minecraft.block.BlockNetherrack@d8570a9 (req. id 87)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:trapped_chest 146 net.minecraft.block.BlockChest@3362108e (req. id 146)
@@ -2388,7 +2388,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:jukebox 84 net.minecraft.block.BlockJukebox@67bd0a26 (req. id 84)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:redwoodPlanks 176 com.chaka.thebackwoods.block.wood.BlockRedwoodPlanks@5c0c6569 (req. id 176)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:fertileLand: 195 (init) -> 197 (map).
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:fertileLand 197 com.chaka.thebackwoods.block.BlockFertileLand@f62ac70 (req. id 197)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:fertileLand 197 com.chaka.thebackwoods.block.other.BlockFertileLand@f62ac70 (req. id 197)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mapleWoodPlanks 167 com.chaka.thebackwoods.block.wood.BlockMapleWoodPlanks@3f962a27 (req. id 167)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:snow_layer 78 net.minecraft.block.BlockSnow@62b1da82 (req. id 78)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:anvil 145 net.minecraft.block.BlockAnvil@3ac46386 (req. id 145)
@@ -2404,9 +2404,9 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:clearGlassLightGray 204 com.chaka.thebackwoods.block.clearglass.BlockClearGlassLightGray@51b43585 (req. id 204)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:clearGlassRed 210 com.chaka.thebackwoods.block.clearglass.BlockClearGlassRed@3e3d29d8 (req. id 210)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:powered_repeater 94 net.minecraft.block.BlockRedstoneRepeater@4050b798 (req. id 94)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:puddingStone 180 com.chaka.thebackwoods.block.BlockPuddingStone@7f4758ad (req. id 180)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:puddingStone 180 com.chaka.thebackwoods.block.other.BlockPuddingStone@7f4758ad (req. id 180)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:refinedObsidian: 228 (init) -> 232 (map).
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:refinedObsidian 232 com.chaka.thebackwoods.block.BlockRefinedObsidian@2bae4f18 (req. id 232)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:refinedObsidian 232 com.chaka.thebackwoods.block.other.BlockRefinedObsidian@2bae4f18 (req. id 232)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:rail 66 net.minecraft.block.BlockRail@56d22976 (req. id 66)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:acacia_stairs 163 net.minecraft.block.BlockStairs@64b5dffd (req. id 163)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:farmland 60 net.minecraft.block.BlockFarmland@11ea39c0 (req. id 60)
@@ -2423,7 +2423,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:piston 33 net.minecraft.block.BlockPistonBase@72e00ea3 (req. id 33)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:ice 79 net.minecraft.block.BlockIce@7bad9a63 (req. id 79)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:sapphire: 219 (init) -> 220 (map).
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:sapphire 220 com.chaka.thebackwoods.block.BlockSapphire@5aca4765 (req. id 220)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:sapphire 220 com.chaka.thebackwoods.block.other.BlockSapphire@5aca4765 (req. id 220)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:powered_comparator 150 net.minecraft.block.BlockRedstoneComparator@23309add (req. id 150)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:end_portal 119 net.minecraft.block.BlockEndPortal@406f1e65 (req. id 119)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:sapphireOre: 218 (init) -> 221 (map).
@@ -2431,7 +2431,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:deadbush 32 net.minecraft.block.BlockDeadBush@6eeab440 (req. id 32)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:diamond_block 57 net.minecraft.block.BlockCompressed@647798cd (req. id 57)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:lit_redstone_ore 74 net.minecraft.block.BlockRedstoneOre@cf1eeb1 (req. id 74)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyDirt 182 com.chaka.thebackwoods.block.BlockMossyDirt@588e038c (req. id 182)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyDirt 182 com.chaka.thebackwoods.block.other.BlockMossyDirt@588e038c (req. id 182)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:sticky_piston 29 net.minecraft.block.BlockPistonBase@7f21bfd2 (req. id 29)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:smoothPuddingStone 190 com.chaka.thebackwoods.block.BlockSmoothPuddingStone@6ed34ce6 (req. id 190)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:carrots 141 net.minecraft.block.BlockCarrot@3ab6ebd9 (req. id 141)
@@ -2440,11 +2440,11 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:leaves 18 net.minecraft.block.BlockOldLeaf@1966aeb1 (req. id 18)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:stonebrick 98 net.minecraft.block.BlockStoneBrick@6794ab50 (req. id 98)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:mycelium 110 net.minecraft.block.BlockMycelium@598b619b (req. id 110)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:granite 186 com.chaka.thebackwoods.block.BlockGranite@73ac157 (req. id 186)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:granite 186 com.chaka.thebackwoods.block.other.BlockGranite@73ac157 (req. id 186)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:quartz_ore 153 net.minecraft.block.BlockOre@61a79110 (req. id 153)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:cauldron 118 net.minecraft.block.BlockCauldron@7bd06a97 (req. id 118)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:soilGarden: 194 (init) -> 196 (map).
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:soilGarden 196 com.chaka.thebackwoods.block.BlockSoilGarden@3c54a88d (req. id 196)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:soilGarden 196 com.chaka.thebackwoods.block.other.BlockSoilGarden@3c54a88d (req. id 196)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:smelteryAdvanced: 192 (init) -> 193 (map).
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:smelteryAdvanced 193 com.chaka.thebackwoods.block.BlockSmelteryAdvanced@43b7e5e7 (req. id 193)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:cactus 81 net.minecraft.block.BlockCactus@645f9828 (req. id 81)
@@ -2484,7 +2484,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:packed_ice 174 net.minecraft.block.BlockPackedIce@30ed59e7 (req. id 174)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:wheat 59 net.minecraft.block.BlockCrops@2ccecddc (req. id 59)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:dropper 158 net.minecraft.block.BlockDropper@36fd9ad2 (req. id 158)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:ruby 217 com.chaka.thebackwoods.block.BlockRuby@4e119084 (req. id 217)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:ruby 217 com.chaka.thebackwoods.block.other.BlockRuby@4e119084 (req. id 217)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:lit_pumpkin 91 net.minecraft.block.BlockPumpkin@50b3f395 (req. id 91)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:stone 1 net.minecraft.block.BlockStone@28ebe0a7 (req. id 1)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:yellow_flower 37 net.minecraft.block.BlockFlower@6c0e42c0 (req. id 37)
@@ -2513,7 +2513,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:spruce_stairs 134 net.minecraft.block.BlockStairs@f464097 (req. id 134)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:wall_sign 68 net.minecraft.block.BlockSign@6d4d589c (req. id 68)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mapleLeaves 165 com.chaka.thebackwoods.block.wood.BlockMapleLeaves@238293c (req. id 165)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyGreatOakWood 183 com.chaka.thebackwoods.block.BlockMossyGreatOakWood@4d2d0572 (req. id 183)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyGreatOakWood 183 com.chaka.thebackwoods.block.other.BlockMossyGreatOakWood@4d2d0572 (req. id 183)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:nether_brick 112 net.minecraft.block.Block@6bfbc0ba (req. id 112)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:fire 51 net.minecraft.block.BlockFire@deca329 (req. id 51)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:bed 26 net.minecraft.block.BlockBed@49689c98 (req. id 26)
@@ -2521,7 +2521,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:stone_brick_stairs 109 net.minecraft.block.BlockStairs@593bbd58 (req. id 109)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:redwoodLeaves 168 com.chaka.thebackwoods.block.wood.BlockRedwoodLeaves@16e1b652 (req. id 168)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:amethyst: 214 (init) -> 215 (map).
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:amethyst 215 com.chaka.thebackwoods.block.BlockAmethyst@fa092b6 (req. id 215)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:amethyst 215 com.chaka.thebackwoods.block.other.BlockAmethyst@fa092b6 (req. id 215)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:wool 35 net.minecraft.block.BlockColored@423b8ab3 (req. id 35)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:clearGlassGray: 201 (init) -> 203 (map).
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:clearGlassGray 203 com.chaka.thebackwoods.block.clearglass.BlockClearGlassGray@2a6b50f1 (req. id 203)
@@ -2551,7 +2551,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:double_wooden_slab 125 net.minecraft.block.BlockWoodSlab@228e339c (req. id 125)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:standing_sign 63 net.minecraft.block.BlockSign@5188245d (req. id 63)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:clearGlassPurple 209 com.chaka.thebackwoods.block.clearglass.BlockClearGlassPurple@4c9c6866 (req. id 209)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mud 188 com.chaka.thebackwoods.block.BlockMud@5c87a5a6 (req. id 188)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mud 188 com.chaka.thebackwoods.block.other.BlockMud@5c87a5a6 (req. id 188)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:flower_pot 140 net.minecraft.block.BlockFlowerPot@5c5df228 (req. id 140)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mapleWood 166 com.chaka.thebackwoods.block.wood.BlockMapleWood@8a9258e (req. id 166)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:wooden_button 143 net.minecraft.block.BlockButtonWood@313d6965 (req. id 143)
@@ -2575,9 +2575,9 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:rubyOre 219 com.chaka.thebackwoods.block.ore.BlockRubyOre@151176e2 (req. id 219)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:piston_extension 36 net.minecraft.block.BlockPistonMoving@4361a2e6 (req. id 36)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:stained_glass_pane 160 net.minecraft.block.BlockStainedGlassPane@478f6f48 (req. id 160)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:quickSand 189 com.chaka.thebackwoods.block.BlockQuickSand@3c2a5f5f (req. id 189)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:quickSand 189 com.chaka.thebackwoods.block.other.BlockQuickSand@3c2a5f5f (req. id 189)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:air 0 net.minecraft.block.BlockAir@62729e3b (req. id 0)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyRock 181 com.chaka.thebackwoods.block.BlockMossyRock@7d9d9dd6 (req. id 181)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyRock 181 com.chaka.thebackwoods.block.other.BlockMossyRock@7d9d9dd6 (req. id 181)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:chest 54 net.minecraft.block.BlockChest@320dce4f (req. id 54)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:activator_rail 157 net.minecraft.block.BlockRailPowered@527abf6f (req. id 157)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:flowing_lava 10 net.minecraft.block.BlockDynamicLiquid@64af7864 (req. id 10)
@@ -2597,16 +2597,16 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:furnace 61 net.minecraft.block.BlockFurnace@3c7206ea (req. id 61)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:soul_sand 88 net.minecraft.block.BlockSoulSand@551bd80a (req. id 88)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:driedDirt: 215 (init) -> 218 (map).
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:driedDirt 218 com.chaka.thebackwoods.block.BlockDriedDirt@1d999354 (req. id 218)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:driedDirt 218 com.chaka.thebackwoods.block.other.BlockDriedDirt@1d999354 (req. id 218)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:crafting_table 58 net.minecraft.block.BlockWorkbench@6d30db75 (req. id 58)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed block id mismatch TheBackWoods:test: 229 (init) -> 191 (map).
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:test 191 com.chaka.thebackwoods.block.BlockTest@40d2cb04 (req. id 191)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:path 184 com.chaka.thebackwoods.block.BlockPath@1210bfcf (req. id 184)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:path 184 com.chaka.thebackwoods.block.other.BlockPath@1210bfcf (req. id 184)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:redstone_wire 55 net.minecraft.block.BlockRedstoneWire@6638d668 (req. id 55)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:redwoodSlab 227 com.chaka.thebackwoods.block.wood.BlockRedwoodSlab@6e68f08d (req. id 227)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:stone_pressure_plate 70 net.minecraft.block.BlockPressurePlate@7f53f7a2 (req. id 70)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:gold_ore 14 net.minecraft.block.BlockOre@7bd9780d (req. id 14)
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockMossyGreatOakWood@4d2d0572 for ItemBlock net.minecraft.item.ItemBlock@46c0a6f3 at id 183, original id requested: 183
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockMossyGreatOakWood@4d2d0572 for ItemBlock net.minecraft.item.ItemBlock@46c0a6f3 at id 183, original id requested: 183
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyGreatOakWood 183 net.minecraft.item.ItemBlock@46c0a6f3 (req. id 183)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:clearGlassBlue: 198 (init) -> 212 (map).
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.clearglass.BlockClearGlassBlue@59ec8024 for ItemBlock net.minecraft.item.ItemBlock@35d0e99b at id 212, original id requested: 212
@@ -2625,7 +2625,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:web 30 net.minecraft.item.ItemBlock@22c4d80a (req. id 30)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:carrot_on_a_stick 398 net.minecraft.item.ItemCarrotOnAStick@78586397 (req. id 398)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:lava_bucket 327 net.minecraft.item.ItemBucket@3dd2bda7 (req. id 327)
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockPuddingStone@7f4758ad for ItemBlock net.minecraft.item.ItemBlock@250f0723 at id 180, original id requested: 180
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockPuddingStone@7f4758ad for ItemBlock net.minecraft.item.ItemBlock@250f0723 at id 180, original id requested: 180
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:puddingStone 180 net.minecraft.item.ItemBlock@250f0723 (req. id 180)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:lead 420 net.minecraft.item.ItemLead@61fc37c4 (req. id 420)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mapleLeaf 4096 com.chaka.thebackwoods.item.ItemMapleLeaf@64b3dbe (req. id 4096)
@@ -2644,7 +2644,7 @@
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:mapleWoodSlab: 226 (init) -> 231 (map).
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.wood.BlockMapleWoodSlab@6765f707 for ItemBlock net.minecraft.item.ItemBlock@573d2199 at id 231, original id requested: 231
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mapleWoodSlab 231 net.minecraft.item.ItemBlock@573d2199 (req. id 231)
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockMossyDirt@588e038c for ItemBlock net.minecraft.item.ItemBlock@538b09bf at id 182, original id requested: 182
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockMossyDirt@588e038c for ItemBlock net.minecraft.item.ItemBlock@538b09bf at id 182, original id requested: 182
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyDirt 182 net.minecraft.item.ItemBlock@538b09bf (req. id 182)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:leather_chestplate 299 net.minecraft.item.ItemArmor@30c52405 (req. id 299)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHardenedClay@409615d for ItemBlock net.minecraft.item.ItemBlock@62872dd9 at id 172, original id requested: 172
@@ -2661,7 +2661,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:stone_brick_stairs 109 net.minecraft.item.ItemBlock@6510a37b (req. id 109)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:diamond_chestplate 311 net.minecraft.item.ItemArmor@3ba71e33 (req. id 311)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:fertileLand: 195 (init) -> 197 (map).
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockFertileLand@f62ac70 for ItemBlock net.minecraft.item.ItemBlock@1726f4f4 at id 197, original id requested: 197
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockFertileLand@f62ac70 for ItemBlock net.minecraft.item.ItemBlock@1726f4f4 at id 197, original id requested: 197
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:fertileLand 197 net.minecraft.item.ItemBlock@1726f4f4 (req. id 197)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:glass_bottle 374 net.minecraft.item.ItemGlassBottle@784650ad (req. id 374)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.wood.BlockRedwoodWood@3959b9e2 for ItemBlock net.minecraft.item.ItemBlock@31bac1d8 at id 169, original id requested: 169
@@ -2710,7 +2710,7 @@
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockWood@60ec1970 for ItemBlock net.minecraft.item.ItemMultiTexture@76a40e67 at id 5, original id requested: 5
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:planks 5 net.minecraft.item.ItemMultiTexture@76a40e67 (req. id 5)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:sapphire: 219 (init) -> 220 (map).
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockSapphire@5aca4765 for ItemBlock net.minecraft.item.ItemBlock@16156674 at id 220, original id requested: 220
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockSapphire@5aca4765 for ItemBlock net.minecraft.item.ItemBlock@16156674 at id 220, original id requested: 220
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:sapphire 220 net.minecraft.item.ItemBlock@16156674 (req. id 220)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:rubyOre: 216 (init) -> 219 (map).
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.ore.BlockRubyOre@151176e2 for ItemBlock net.minecraft.item.ItemBlock@2d93fa3c at id 219, original id requested: 219
@@ -2742,7 +2742,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:netherrack 87 net.minecraft.item.ItemBlock@4ceb4f17 (req. id 87)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:leather_boots 301 net.minecraft.item.ItemArmor@6584f43 (req. id 301)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:iron_axe 258 net.minecraft.item.ItemAxe@63dee89b (req. id 258)
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockGranite@73ac157 for ItemBlock net.minecraft.item.ItemBlock@226b3a76 at id 186, original id requested: 186
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockGranite@73ac157 for ItemBlock net.minecraft.item.ItemBlock@226b3a76 at id 186, original id requested: 186
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:granite 186 net.minecraft.item.ItemBlock@226b3a76 (req. id 186)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.clearglass.BlockClearGlassOrange@295eddb6 for ItemBlock net.minecraft.item.ItemBlock@132decf2 at id 207, original id requested: 207
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:clearGlassOrange 207 net.minecraft.item.ItemBlock@132decf2 (req. id 207)
@@ -2858,7 +2858,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:mob_spawner 52 codechicken.nei.ItemMobSpawner@4b76b531 (req. id 52)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:flower_pot 390 net.minecraft.item.ItemReed@69ee8449 (req. id 390)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:obsidianIngot: 4107 (init) -> 4103 (map).
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:obsidianIngot 4103 com.chaka.thebackwoods.item.ItemObsidianIngot@181362e2 (req. id 4103)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:obsidianIngot 4103 com.chaka.thebackwoods.item.other.ItemObsidianIngot@181362e2 (req. id 4103)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockDispenser@7729bf61 for ItemBlock net.minecraft.item.ItemBlock@6569f7ad at id 23, original id requested: 23
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:dispenser 23 net.minecraft.item.ItemBlock@6569f7ad (req. id 23)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPane@2a1d4a6 for ItemBlock net.minecraft.item.ItemBlock@7b4f744d at id 101, original id requested: 101
@@ -2866,7 +2866,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:chainmail_boots 305 net.minecraft.item.ItemArmor@697c2262 (req. id 305)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:diamond_horse_armor 419 net.minecraft.item.Item@3d3f1775 (req. id 419)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:gold_nugget 371 net.minecraft.item.Item@280685d4 (req. id 371)
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockPath@1210bfcf for ItemBlock net.minecraft.item.ItemBlock@9a0b84d at id 184, original id requested: 184
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockPath@1210bfcf for ItemBlock net.minecraft.item.ItemBlock@9a0b84d at id 184, original id requested: 184
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:path 184 net.minecraft.item.ItemBlock@9a0b84d (req. id 184)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:fishing_rod 346 net.minecraft.item.ItemFishingRod@11912565 (req. id 346)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:bread 297 net.minecraft.item.ItemFood@2456b9aa (req. id 297)
@@ -2875,7 +2875,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:paper 339 net.minecraft.item.Item@580fd59e (req. id 339)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.Block@3d722bd for ItemBlock net.minecraft.item.ItemBlock@5a047210 at id 173, original id requested: 173
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:coal_block 173 net.minecraft.item.ItemBlock@5a047210 (req. id 173)
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockMud@5c87a5a6 for ItemBlock net.minecraft.item.ItemBlock@4d8c64bf at id 188, original id requested: 188
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockMud@5c87a5a6 for ItemBlock net.minecraft.item.ItemBlock@4d8c64bf at id 188, original id requested: 188
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mud 188 net.minecraft.item.ItemBlock@4d8c64bf (req. id 188)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:record_far 2260 net.minecraft.item.ItemRecord@6b5bf0f6 (req. id 2260)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:item_frame 389 net.minecraft.item.ItemHangingEntity@504ceb56 (req. id 389)
@@ -2892,19 +2892,19 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:stick 280 net.minecraft.item.Item@4bdc8c55 (req. id 280)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:wooden_pickaxe 270 net.minecraft.item.ItemPickaxe@2c55de08 (req. id 270)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:painting 321 net.minecraft.item.ItemHangingEntity@3420cae9 (req. id 321)
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockMossyGranite@2dcb2aa1 for ItemBlock net.minecraft.item.ItemBlock@755bc783 at id 187, original id requested: 187
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockMossyGranite@2dcb2aa1 for ItemBlock net.minecraft.item.ItemBlock@755bc783 at id 187, original id requested: 187
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyGranite 187 net.minecraft.item.ItemBlock@755bc783 (req. id 187)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:saddle 329 net.minecraft.item.ItemSaddle@29bd3793 (req. id 329)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:sapphireItem 4099 com.chaka.thebackwoods.item.ItemSapphire@4ad6746e (req. id 4099)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:sapphireItem 4099 com.chaka.thebackwoods.item.other.ItemSapphire@4ad6746e (req. id 4099)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockJukebox@67bd0a26 for ItemBlock net.minecraft.item.ItemBlock@ca5f32c at id 84, original id requested: 84
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:jukebox 84 net.minecraft.item.ItemBlock@ca5f32c (req. id 84)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStone@28ebe0a7 for ItemBlock net.minecraft.item.ItemBlock@4e65575 at id 1, original id requested: 1
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:stone 1 net.minecraft.item.ItemBlock@4e65575 (req. id 1)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHugeMushroom@7e84d99c for ItemBlock net.minecraft.item.ItemBlock@6ca21395 at id 100, original id requested: 100
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:red_mushroom_block 100 net.minecraft.item.ItemBlock@6ca21395 (req. id 100)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:amethystItem 4097 com.chaka.thebackwoods.item.ItemAmethyst@35c2882c (req. id 4097)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:amethystItem 4097 com.chaka.thebackwoods.item.other.ItemAmethyst@35c2882c (req. id 4097)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:moss: 223 (init) -> 225 (map).
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockMoss@3a30c028 for ItemBlock net.minecraft.item.ItemBlock@56979ff0 at id 225, original id requested: 225
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockMoss@3a30c028 for ItemBlock net.minecraft.item.ItemBlock@56979ff0 at id 225, original id requested: 225
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:moss 225 net.minecraft.item.ItemBlock@56979ff0 (req. id 225)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:clearGlassBlack: 197 (init) -> 199 (map).
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.clearglass.BlockClearGlassBlack@78840380 for ItemBlock net.minecraft.item.ItemBlock@23020650 at id 199, original id requested: 199
@@ -2931,7 +2931,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:diamond_helmet 310 net.minecraft.item.ItemArmor@22926ec8 (req. id 310)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:diamond_shovel 277 net.minecraft.item.ItemSpade@11d9b9fd (req. id 277)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:refinedObsidianIngot: 4108 (init) -> 4104 (map).
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:refinedObsidianIngot 4104 com.chaka.thebackwoods.item.ItemRefinedObsidianIngot@20c0efc7 (req. id 4104)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:refinedObsidianIngot 4104 com.chaka.thebackwoods.item.other.ItemRefinedObsidianIngot@20c0efc7 (req. id 4104)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:nether_star 399 net.minecraft.item.ItemSimpleFoiled@3dc02b98 (req. id 399)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockGlass@641428b7 for ItemBlock net.minecraft.item.ItemBlock@64967f9e at id 20, original id requested: 20
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:glass 20 net.minecraft.item.ItemBlock@64967f9e (req. id 20)
@@ -2940,7 +2940,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:deadbush 32 net.minecraft.item.ItemBlock@28733484 (req. id 32)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:command_block_minecart 422 net.minecraft.item.ItemMinecart@472dd930 (req. id 422)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:driedDirt: 215 (init) -> 218 (map).
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockDriedDirt@1d999354 for ItemBlock net.minecraft.item.ItemBlock@4d977efa at id 218, original id requested: 218
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockDriedDirt@1d999354 for ItemBlock net.minecraft.item.ItemBlock@4d977efa at id 218, original id requested: 218
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:driedDirt 218 net.minecraft.item.ItemBlock@4d977efa (req. id 218)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:experience_bottle 384 net.minecraft.item.ItemExpBottle@62ad862b (req. id 384)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockDynamicLiquid@795ab2b7 for ItemBlock net.minecraft.item.ItemBlock@2ce49e21 at id 8, original id requested: 8
@@ -2956,11 +2956,11 @@
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRailDetector@463b1057 for ItemBlock net.minecraft.item.ItemBlock@62d456af at id 28, original id requested: 28
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:detector_rail 28 net.minecraft.item.ItemBlock@62d456af (req. id 28)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:mossItem: 4105 (init) -> 4101 (map).
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossItem 4101 com.chaka.thebackwoods.item.ItemMoss@69a78d5f (req. id 4101)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossItem 4101 com.chaka.thebackwoods.item.other.ItemMoss@69a78d5f (req. id 4101)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:pumpkin_pie 400 net.minecraft.item.ItemFood@136e27d4 (req. id 400)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCompressed@647798cd for ItemBlock net.minecraft.item.ItemBlock@3561b92f at id 57, original id requested: 57
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:diamond_block 57 net.minecraft.item.ItemBlock@3561b92f (req. id 57)
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockMossyPath@16a3cc2b for ItemBlock net.minecraft.item.ItemBlock@5bb126a9 at id 185, original id requested: 185
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockMossyPath@16a3cc2b for ItemBlock net.minecraft.item.ItemBlock@5bb126a9 at id 185, original id requested: 185
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyPath 185 net.minecraft.item.ItemBlock@5bb126a9 (req. id 185)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:record_cat 2257 net.minecraft.item.ItemRecord@dbfc863 (req. id 2257)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockMycelium@598b619b for ItemBlock net.minecraft.item.ItemBlock@5d78424c at id 110, original id requested: 110
@@ -3003,7 +3003,7 @@
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:test: 229 (init) -> 191 (map).
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockTest@40d2cb04 for ItemBlock net.minecraft.item.ItemBlock@4f0e94db at id 191, original id requested: 191
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:test 191 net.minecraft.item.ItemBlock@4f0e94db (req. id 191)
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockMossyRock@7d9d9dd6 for ItemBlock net.minecraft.item.ItemBlock@76e58d07 at id 181, original id requested: 181
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockMossyRock@7d9d9dd6 for ItemBlock net.minecraft.item.ItemBlock@76e58d07 at id 181, original id requested: 181
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:mossyRock 181 net.minecraft.item.ItemBlock@76e58d07 (req. id 181)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockMushroom@136fa8e5 for ItemBlock net.minecraft.item.ItemBlock@7bf6ad64 at id 39, original id requested: 39
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:brown_mushroom 39 net.minecraft.item.ItemBlock@7bf6ad64 (req. id 39)
@@ -3021,10 +3021,10 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:gold_ingot 266 net.minecraft.item.Item@2a5584ed (req. id 266)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:carrot 391 net.minecraft.item.ItemSeedFood@2f94d571 (req. id 391)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:amethyst: 214 (init) -> 215 (map).
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockAmethyst@fa092b6 for ItemBlock net.minecraft.item.ItemBlock@76fff2bd at id 215, original id requested: 215
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockAmethyst@fa092b6 for ItemBlock net.minecraft.item.ItemBlock@76fff2bd at id 215, original id requested: 215
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:amethyst 215 net.minecraft.item.ItemBlock@76fff2bd (req. id 215)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:chainmail_chestplate 303 net.minecraft.item.ItemArmor@6def748b (req. id 303)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:rubyItem 4098 com.chaka.thebackwoods.item.ItemRuby@767a1c46 (req. id 4098)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:rubyItem 4098 com.chaka.thebackwoods.item.other.ItemRuby@767a1c46 (req. id 4098)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.clearglass.BlockClearGlassPink@2c1f0db4 for ItemBlock net.minecraft.item.ItemBlock@2abcbb0d at id 208, original id requested: 208
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:clearGlassPink 208 net.minecraft.item.ItemBlock@2abcbb0d (req. id 208)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockDynamicLiquid@64af7864 for ItemBlock net.minecraft.item.ItemBlock@2df476d6 at id 10, original id requested: 10
@@ -3043,7 +3043,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:compass 345 net.minecraft.item.Item@d463d94 (req. id 345)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@7bdeca58 for ItemBlock net.minecraft.item.ItemBlock@25b85c8e at id 53, original id requested: 53
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:oak_stairs 53 net.minecraft.item.ItemBlock@25b85c8e (req. id 53)
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:rubyHoe 4113 com.chaka.thebackwoods.item.ItemRuby@5feb3c40 (req. id 4113)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:rubyHoe 4113 com.chaka.thebackwoods.item.other.ItemRuby@5feb3c40 (req. id 4113)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:tnt_minecart 407 net.minecraft.item.ItemMinecart@1ad4deed (req. id 407)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:sign 323 net.minecraft.item.ItemSign@5f44755d (req. id 323)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockSoulSand@551bd80a for ItemBlock net.minecraft.item.ItemBlock@237cdadb at id 88, original id requested: 88
@@ -3061,7 +3061,7 @@
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@4d3a8156 for ItemBlock net.minecraft.item.ItemBlock@491db3cc at id 135, original id requested: 135
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:birch_stairs 135 net.minecraft.item.ItemBlock@491db3cc (req. id 135)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:refiningPowder: 4106 (init) -> 4102 (map).
-[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:refiningPowder 4102 com.chaka.thebackwoods.item.ItemRefiningPowder@77328e29 (req. id 4102)
+[20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:refiningPowder 4102 com.chaka.thebackwoods.item.other.ItemRefiningPowder@77328e29 (req. id 4102)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCompressed@2982a8ab for ItemBlock net.minecraft.item.ItemBlock@25d890d9 at id 42, original id requested: 42
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:iron_block 42 net.minecraft.item.ItemBlock@25d890d9 (req. id 42)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@60848eb2 for ItemBlock net.minecraft.item.ItemBlock@5bed0458 at id 164, original id requested: 164
@@ -3123,7 +3123,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:fireworks 401 net.minecraft.item.ItemFirework@27341bc7 (req. id 401)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:melon 360 net.minecraft.item.ItemFood@4a8a191a (req. id 360)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:soilGarden: 194 (init) -> 196 (map).
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockSoilGarden@3c54a88d for ItemBlock net.minecraft.item.ItemBlock@37b02d20 at id 196, original id requested: 196
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockSoilGarden@3c54a88d for ItemBlock net.minecraft.item.ItemBlock@37b02d20 at id 196, original id requested: 196
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:soilGarden 196 net.minecraft.item.ItemBlock@37b02d20 (req. id 196)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:wooden_hoe 290 net.minecraft.item.ItemHoe@7285cef (req. id 290)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:apple 260 net.minecraft.item.ItemFood@6e647ecb (req. id 260)
@@ -3209,7 +3209,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:red_flower 38 net.minecraft.item.ItemMultiTexture@3c9373f7 (req. id 38)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@6e0834c5 for ItemBlock net.minecraft.item.ItemBlock@599556aa at id 128, original id requested: 128
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:sandstone_stairs 128 net.minecraft.item.ItemBlock@599556aa (req. id 128)
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockRuby@4e119084 for ItemBlock net.minecraft.item.ItemBlock@6326f226 at id 217, original id requested: 217
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockRuby@4e119084 for ItemBlock net.minecraft.item.ItemBlock@6326f226 at id 217, original id requested: 217
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:ruby 217 net.minecraft.item.ItemBlock@6326f226 (req. id 217)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHopper@9a263a6 for ItemBlock net.minecraft.item.ItemBlock@45c13a68 at id 154, original id requested: 154
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:hopper 154 net.minecraft.item.ItemBlock@45c13a68 (req. id 154)
@@ -3221,13 +3221,13 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:carrots 141 net.minecraft.item.ItemBlock@72a9b899 (req. id 141)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:comparator 404 net.minecraft.item.ItemReed@466e7f96 (req. id 404)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:cooked_chicken 366 net.minecraft.item.ItemFood@5431f3ae (req. id 366)
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockQuickSand@3c2a5f5f for ItemBlock net.minecraft.item.ItemBlock@1db74d5 at id 189, original id requested: 189
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockQuickSand@3c2a5f5f for ItemBlock net.minecraft.item.ItemBlock@1db74d5 at id 189, original id requested: 189
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:quickSand 189 net.minecraft.item.ItemBlock@1db74d5 (req. id 189)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRedstoneOre@2d893cba for ItemBlock net.minecraft.item.ItemBlock@2d697d0d at id 73, original id requested: 73
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:redstone_ore 73 net.minecraft.item.ItemBlock@2d697d0d (req. id 73)
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:emerald 388 net.minecraft.item.Item@47ab8f4c (req. id 388)
 [20:42:55] [Server thread/DEBUG] [FML/]: Fixed item id mismatch TheBackWoods:refinedObsidian: 228 (init) -> 232 (map).
-[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.BlockRefinedObsidian@2bae4f18 for ItemBlock net.minecraft.item.ItemBlock@40cac70f at id 232, original id requested: 232
+[20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block com.chaka.thebackwoods.block.other.BlockRefinedObsidian@2bae4f18 for ItemBlock net.minecraft.item.ItemBlock@40cac70f at id 232, original id requested: 232
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: TheBackWoods:refinedObsidian 232 net.minecraft.item.ItemBlock@40cac70f (req. id 232)
 [20:42:55] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockLever@135212c7 for ItemBlock net.minecraft.item.ItemBlock@450b03f2 at id 69, original id requested: 69
 [20:42:55] [Server thread/TRACE] [FML/]: Registry add: minecraft:lever 69 net.minecraft.item.ItemBlock@450b03f2 (req. id 69)
@@ -3422,23 +3422,23 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:greatOakWood 177 com.chaka.thebackwoods.block.wood.BlockGreatOakWood@5886dda2
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:greatOakLeaves 178 com.chaka.thebackwoods.block.wood.BlockGreatOakLeaves@563e5f74
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:greatOakPlanks 179 com.chaka.thebackwoods.block.wood.BlockGreatOakPlanks@68a84820
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:puddingStone 180 com.chaka.thebackwoods.block.BlockPuddingStone@7f4758ad
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyRock 181 com.chaka.thebackwoods.block.BlockMossyRock@7d9d9dd6
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyDirt 182 com.chaka.thebackwoods.block.BlockMossyDirt@588e038c
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyGreatOakWood 183 com.chaka.thebackwoods.block.BlockMossyGreatOakWood@4d2d0572
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:path 184 com.chaka.thebackwoods.block.BlockPath@1210bfcf
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyPath 185 com.chaka.thebackwoods.block.BlockMossyPath@16a3cc2b
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:granite 186 com.chaka.thebackwoods.block.BlockGranite@73ac157
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyGranite 187 com.chaka.thebackwoods.block.BlockMossyGranite@2dcb2aa1
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mud 188 com.chaka.thebackwoods.block.BlockMud@5c87a5a6
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:quickSand 189 com.chaka.thebackwoods.block.BlockQuickSand@3c2a5f5f
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:puddingStone 180 com.chaka.thebackwoods.block.other.BlockPuddingStone@7f4758ad
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyRock 181 com.chaka.thebackwoods.block.other.BlockMossyRock@7d9d9dd6
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyDirt 182 com.chaka.thebackwoods.block.other.BlockMossyDirt@588e038c
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyGreatOakWood 183 com.chaka.thebackwoods.block.other.BlockMossyGreatOakWood@4d2d0572
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:path 184 com.chaka.thebackwoods.block.other.BlockPath@1210bfcf
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyPath 185 com.chaka.thebackwoods.block.other.BlockMossyPath@16a3cc2b
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:granite 186 com.chaka.thebackwoods.block.other.BlockGranite@73ac157
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossyGranite 187 com.chaka.thebackwoods.block.other.BlockMossyGranite@2dcb2aa1
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mud 188 com.chaka.thebackwoods.block.other.BlockMud@5c87a5a6
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:quickSand 189 com.chaka.thebackwoods.block.other.BlockQuickSand@3c2a5f5f
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:smoothPuddingStone 190 com.chaka.thebackwoods.block.BlockSmoothPuddingStone@6ed34ce6
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:test 191 com.chaka.thebackwoods.block.BlockTest@40d2cb04
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:smelteryAdvanced 193 com.chaka.thebackwoods.block.BlockSmelteryAdvanced@43b7e5e7
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:smeltery 194 com.chaka.thebackwoods.block.BlockSmeltery@6b2f666f
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:advancedCraftingTable 195 com.chaka.thebackwoods.block.BlockAdvancedCraftingTable@123817d7
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:soilGarden 196 com.chaka.thebackwoods.block.BlockSoilGarden@3c54a88d
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:fertileLand 197 com.chaka.thebackwoods.block.BlockFertileLand@f62ac70
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:soilGarden 196 com.chaka.thebackwoods.block.other.BlockSoilGarden@3c54a88d
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:fertileLand 197 com.chaka.thebackwoods.block.other.BlockFertileLand@f62ac70
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:clearGlass 198 com.chaka.thebackwoods.block.clearglass.BlockClearGlass@7e9bcb0b
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:clearGlassBlack 199 com.chaka.thebackwoods.block.clearglass.BlockClearGlassBlack@78840380
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:clearGlassBrown 200 com.chaka.thebackwoods.block.clearglass.BlockClearGlassBrown@2698dab7
@@ -3456,23 +3456,23 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:clearGlassBlue 212 com.chaka.thebackwoods.block.clearglass.BlockClearGlassBlue@59ec8024
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:clearGlassLightBlue 213 com.chaka.thebackwoods.block.clearglass.BlockClearGlassLightBlue@654033ff
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:clearGlassYellow 214 com.chaka.thebackwoods.block.clearglass.BlockClearGlassYellow@3642bccd
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethyst 215 com.chaka.thebackwoods.block.BlockAmethyst@fa092b6
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethyst 215 com.chaka.thebackwoods.block.other.BlockAmethyst@fa092b6
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystOre 216 com.chaka.thebackwoods.block.ore.BlockAmethystOre@5e1b5726
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:ruby 217 com.chaka.thebackwoods.block.BlockRuby@4e119084
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:driedDirt 218 com.chaka.thebackwoods.block.BlockDriedDirt@1d999354
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:ruby 217 com.chaka.thebackwoods.block.other.BlockRuby@4e119084
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:driedDirt 218 com.chaka.thebackwoods.block.other.BlockDriedDirt@1d999354
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyOre 219 com.chaka.thebackwoods.block.ore.BlockRubyOre@151176e2
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphire 220 com.chaka.thebackwoods.block.BlockSapphire@5aca4765
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphire 220 com.chaka.thebackwoods.block.other.BlockSapphire@5aca4765
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphireOre 221 com.chaka.thebackwoods.block.ore.BlockSapphireOre@11e3cfa5
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:firWood 222 com.chaka.thebackwoods.block.wood.BlockFirWood@56f954ff
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:firLeaves 223 com.chaka.thebackwoods.block.wood.BlockFirLeaves@7b12e52f
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:firPlanks 224 com.chaka.thebackwoods.block.wood.BlockFirPlanks@66958595
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:moss 225 com.chaka.thebackwoods.block.BlockMoss@3a30c028
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:moss 225 com.chaka.thebackwoods.block.other.BlockMoss@3a30c028
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:slab 226 com.chaka.thebackwoods.block.BlockSlab@464ede69
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:redwoodSlab 227 com.chaka.thebackwoods.block.wood.BlockRedwoodSlab@6e68f08d
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:firWoodSlab 228 com.chaka.thebackwoods.block.wood.BlockFirWoodSlab@5bf9cc19
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:greatOakWoodSlab 229 com.chaka.thebackwoods.block.wood.BlockGreatOakWoodSlab@7c8571f9
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mapleWoodSlab 231 com.chaka.thebackwoods.block.wood.BlockMapleWoodSlab@6765f707
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidian 232 com.chaka.thebackwoods.block.BlockRefinedObsidian@2bae4f18
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidian 232 com.chaka.thebackwoods.block.other.BlockRefinedObsidian@2bae4f18
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: minecraft:stone 1 net.minecraft.item.ItemBlock@4e65575
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: minecraft:grass 2 net.minecraft.item.ItemBlock@6ac481fa
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: minecraft:dirt 3 net.minecraft.item.ItemMultiTexture@2a1fca3d
@@ -3849,14 +3849,14 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: minecraft:record_11 2266 net.minecraft.item.ItemRecord@504b98b5
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: minecraft:record_wait 2267 net.minecraft.item.ItemRecord@1316bc42
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mapleLeaf 4096 com.chaka.thebackwoods.item.ItemMapleLeaf@64b3dbe
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystItem 4097 com.chaka.thebackwoods.item.ItemAmethyst@35c2882c
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyItem 4098 com.chaka.thebackwoods.item.ItemRuby@767a1c46
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphireItem 4099 com.chaka.thebackwoods.item.ItemSapphire@4ad6746e
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystItem 4097 com.chaka.thebackwoods.item.other.ItemAmethyst@35c2882c
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyItem 4098 com.chaka.thebackwoods.item.other.ItemRuby@767a1c46
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphireItem 4099 com.chaka.thebackwoods.item.other.ItemSapphire@4ad6746e
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystSword 4100 com.chaka.thebackwoods.item.tool.ItemAmethystSword@45760824
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossItem 4101 com.chaka.thebackwoods.item.ItemMoss@69a78d5f
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refiningPowder 4102 com.chaka.thebackwoods.item.ItemRefiningPowder@77328e29
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:obsidianIngot 4103 com.chaka.thebackwoods.item.ItemObsidianIngot@181362e2
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidianIngot 4104 com.chaka.thebackwoods.item.ItemRefinedObsidianIngot@20c0efc7
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:mossItem 4101 com.chaka.thebackwoods.item.other.ItemMoss@69a78d5f
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refiningPowder 4102 com.chaka.thebackwoods.item.other.ItemRefiningPowder@77328e29
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:obsidianIngot 4103 com.chaka.thebackwoods.item.other.ItemObsidianIngot@181362e2
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:refinedObsidianIngot 4104 com.chaka.thebackwoods.item.other.ItemRefinedObsidianIngot@20c0efc7
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystAxe 4105 com.chaka.thebackwoods.item.tool.ItemAmethystAxe@34bd492b
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystPick 4106 com.chaka.thebackwoods.item.tool.ItemAmethystPickaxe@4810971c
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:amethystHoe 4107 com.chaka.thebackwoods.item.tool.ItemAmethystHoe@770ec119
@@ -3865,7 +3865,7 @@
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyPick 4110 com.chaka.thebackwoods.item.tool.ItemRubyPickaxe@709dbff5
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubySpade 4111 com.chaka.thebackwoods.item.tool.ItemRubySpade@4a5a796
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyAxe 4112 com.chaka.thebackwoods.item.tool.ItemRubyAxe@179d6b3c
-[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyHoe 4113 com.chaka.thebackwoods.item.ItemRuby@5feb3c40
+[20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:rubyHoe 4113 com.chaka.thebackwoods.item.other.ItemRuby@5feb3c40
 [20:42:55] [Server thread/TRACE] [FML/]: Registry: TheBackWoods:sapphirePickaxe 4114 com.chaka.thebackwoods.item.tool.ItemSapphirePickaxe@4cc0bef2
 [20:42:55] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
 [20:42:55] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp

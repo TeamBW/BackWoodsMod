@@ -79,6 +79,10 @@ tile.thebackwoods:deadWoodPlanks.name=Dead Wood Planks
 tile.thebackwoods:deadWoodSlab.name=Dead Wood Slab
 tile.thebackwoods:deadWood.name=Dead Wood
 tile.thebackwoods:driedGrass.name=Dried Grass
+tile.thebackwoods:silverOre.name=Silver Ore
+tile.thebackwoods:tinOre.name=Tin Ore
+tile.thebackwoods:copperOre.name=Copper Ore
+tile.thebackwoods:leadOre.name=Lead Ore
 
 # Need Textures
 

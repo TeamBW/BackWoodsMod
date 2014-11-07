@@ -7,6 +7,7 @@ import com.chaka.thebackwoods.init.ModItems;
 import com.chaka.thebackwoods.init.Recipes;
 import com.chaka.thebackwoods.proxy.IProxy;
 import com.chaka.thebackwoods.reference.Reference;
+import com.chaka.thebackwoods.tile_entity.TBWTileEntity;
 import com.chaka.thebackwoods.utility.LogHelper;
 import com.chaka.thebackwoods.world.OreGeneration;
 import com.chaka.thebackwoods.world.biome.BiomeRegistry;
@@ -54,6 +55,8 @@ public class TheBackWoods {
 
         chakaMeat = new ItemFood(5, 1.0F, true).setUnlocalizedName("chakaMeat");
         GameRegistry.registerItem(chakaMeat, chakaMeat.getUnlocalizedName().substring(5));
+
+        TBWTileEntity.mainRegistry();
     }
 
     @Mod.EventHandler

@@ -2,13 +2,16 @@ package com.chaka.thebackwoods.init;
 
 import com.chaka.thebackwoods.block.*;
 import com.chaka.thebackwoods.block.clearglass.*;
-import com.chaka.thebackwoods.block.ore.BlockAmethystOre;
-import com.chaka.thebackwoods.block.ore.BlockRubyOre;
-import com.chaka.thebackwoods.block.ore.BlockSapphireOre;
+import com.chaka.thebackwoods.block.crop.BlockCorn;
+import com.chaka.thebackwoods.block.crop.BlockTBWCrop;
+import com.chaka.thebackwoods.block.ore.*;
+import com.chaka.thebackwoods.block.other.*;
+import com.chaka.thebackwoods.block.tile.BlockTestChest;
 import com.chaka.thebackwoods.block.wood.*;
 import com.chaka.thebackwoods.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.block.BlockChest;
+import net.minecraft.block.BlockCrops;
+import net.minecraft.block.material.Material;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModBlocks {
@@ -62,7 +65,7 @@ public class ModBlocks {
     public static final BlockTBW firPlanks = new BlockFirPlanks();
     public static final BlockTBW firLeaves = new BlockFirLeaves();
     public static final BlockTBW moss = new BlockMoss();
-    public static final BlockTBW firWoodSlab = new BlockFirWoodSlab();
+    public static final BlockTBW firWoodSlab = new BlockFirWoodSlab(false, Material.wood);
     public static final BlockTBW greatOakWoodSlab = new BlockGreatOakWoodSlab();
     public static final BlockTBW mapleWoodSlab = new BlockMapleWoodSlab();
     public static final BlockTBW redwoodSlab = new BlockRedwoodSlab();
@@ -73,8 +76,24 @@ public class ModBlocks {
     public static final BlockTBW driedGrass = new BlockDriedGrass();
     public static final BlockTestChest testChest = new BlockTestChest(0);
 
+    //Ores
+    public static final BlockTBW silverOre = new BlockSilverOre();
+    public static final BlockTBW tinOre = new BlockTinOre();
+    public static final BlockTBW copperOre = new BlockCopperOre();
+    public static final BlockTBW leadOre = new BlockLeadOre();
+
+    //Metal blocks
+    public static final BlockTBW silverBlock = new BlockSilverBlock();
+    public static final BlockTBW tinBlock = new BlockTinBlock();
+    public static final BlockTBW copperBlock = new BlockCopperBlock();
+    public static final BlockTBW leadBlock = new BlockLeadBlock();
+
+    //Crop
+    public static final BlockCrops cornBlock = new BlockCorn();
+
     //Test Block
     public static final BlockTest test = new BlockTest();
+    public static final BlockCrops BlockTBWCrop = new BlockTBWCrop();
 
     public static void init() {
 
@@ -136,8 +155,25 @@ public class ModBlocks {
         GameRegistry.registerBlock(deadWoodPlanks, "deadWoodPlanks");
         GameRegistry.registerBlock(deadWoodSlab, "deadWoodSlab");
         GameRegistry.registerBlock(driedGrass, "driedGrass");
+        GameRegistry.registerBlock(testChest, "testChest");
+
+        //Ores
+        GameRegistry.registerBlock(silverOre, "silverOre");
+        GameRegistry.registerBlock(tinOre, "tinOre");
+        GameRegistry.registerBlock(copperOre, "copperOre");
+        GameRegistry.registerBlock(leadOre, "leadOre");
+
+        //Metal Blocks
+        GameRegistry.registerBlock(silverBlock, "silverBlock");
+        GameRegistry.registerBlock(tinBlock, "tinBlock");
+        GameRegistry.registerBlock(copperBlock, "copperBlock");
+        GameRegistry.registerBlock(leadBlock, "leadBlock");
+
+        //Crop
+        GameRegistry.registerBlock(cornBlock, "cornBlock");
 
         //Test Block
         GameRegistry.registerBlock(test, "test");
+        GameRegistry.registerBlock(BlockTBWCrop, "BlockTBWCrop");
     }
 }

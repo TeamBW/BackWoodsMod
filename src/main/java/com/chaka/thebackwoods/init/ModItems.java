@@ -2,8 +2,22 @@ package com.chaka.thebackwoods.init;
 
 import com.chaka.thebackwoods.item.*;
 import com.chaka.thebackwoods.item.armor.*;
+import com.chaka.thebackwoods.item.crop.ItemCornCrop;
+import com.chaka.thebackwoods.item.crop.ItemTBWCrop;
+import com.chaka.thebackwoods.item.dust.ItemCopperDust;
+import com.chaka.thebackwoods.item.dust.ItemLeadDust;
+import com.chaka.thebackwoods.item.dust.ItemSilverDust;
+import com.chaka.thebackwoods.item.dust.ItemTinDust;
+import com.chaka.thebackwoods.item.ingot.ItemCopperIngot;
+import com.chaka.thebackwoods.item.ingot.ItemLeadIngot;
+import com.chaka.thebackwoods.item.ingot.ItemSilverIngot;
+import com.chaka.thebackwoods.item.ingot.ItemTinIngot;
+import com.chaka.thebackwoods.item.other.*;
+import com.chaka.thebackwoods.item.seed.ItemCornSeed;
+import com.chaka.thebackwoods.item.seed.ItemTBWSeed;
 import com.chaka.thebackwoods.item.tool.*;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraftforge.common.util.EnumHelper;
@@ -54,8 +68,26 @@ public class ModItems {
     public static final ItemTBWArmor amethystLeggings = new ItemAmethystLeggings(amethystArmorMaterial, 0, 2);
     public static final ItemTBWArmor amethystBoots = new ItemAmethystBoots(amethystArmorMaterial, 0, 3);
 
+    //Ingots
+    public static final ItemTBW silverIngot = new ItemSilverIngot();
+    public static final ItemTBW tinIngot = new ItemTinIngot();
+    public static final ItemTBW copperIngot = new ItemCopperIngot();
+    public static final ItemTBW leadIngot = new ItemLeadIngot();
+
+    //Dust
+    public static final ItemTBW silverDust = new ItemSilverDust();
+    public static final ItemTBW tinDust = new ItemTinDust();
+    public static final ItemTBW copperDust = new ItemCopperDust();
+    public static final ItemTBW leadDust = new ItemLeadDust();
+
+    //Crop
+    public static  final  Item itemCornCrop = new ItemCornCrop();
+    public static final Item itemCornSeed = new ItemCornSeed(ModBlocks.cornBlock, Blocks.farmland);
+
     //Test
     public static  final  ItemTBWTest testItem = new ItemTest();
+    public static  final  Item TBWCrop = new ItemTBWCrop();
+    public static  final  Item TBWSeed = new ItemTBWSeed(ModBlocks.BlockTBWCrop, Blocks.farmland);
 
 
     public static void init() {
@@ -94,7 +126,25 @@ public class ModItems {
         GameRegistry.registerItem(amethystLeggings, "amethystLeggings");
         GameRegistry.registerItem(amethystBoots, "amethystBoots");
 
+        //Ingots
+        GameRegistry.registerItem(silverIngot, "silverIngot");
+        GameRegistry.registerItem(tinIngot, "tinIngot");
+        GameRegistry.registerItem(copperIngot, "copperIngot");
+        GameRegistry.registerItem(leadIngot, "leadIngot");
+
+        //Dust
+        GameRegistry.registerItem(silverDust, "silverDust");
+        GameRegistry.registerItem(tinDust, "tinDust");
+        GameRegistry.registerItem(copperDust, "copperDust");
+        GameRegistry.registerItem(leadDust, "leadDust");
+
+        //Crop
+        GameRegistry.registerItem(itemCornCrop, "itemCornCrop");
+        GameRegistry.registerItem(itemCornSeed, "itemCornSeed");
+
         //Test
         GameRegistry.registerItem(testItem,"testItem");
+        GameRegistry.registerItem(TBWSeed,"TBWSeed");
+        GameRegistry.registerItem(TBWCrop,"TBWCrop");
     }
 }

@@ -1,7 +1,5 @@
 package com.chaka.thebackwoods.item.tool;
 
-import com.chaka.thebackwoods.item.ItemSapphire;
-import com.chaka.thebackwoods.item.ItemTBW;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
