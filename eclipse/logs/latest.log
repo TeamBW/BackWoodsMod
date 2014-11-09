@@ -1,71 +1,71 @@
-[20:52:57] [main/INFO]: No arguments specified, assuming client.
-[20:52:57] [main/INFO]: Extra: []
-[20:52:57] [main/INFO]: Running with arguments: [--userProperties, {}, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Christopher/.gradle/caches/minecraft/assets, --version, 1.7.10]
-[20:52:57] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[20:52:57] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[20:52:57] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[20:52:57] [main/INFO]: Forge Mod Loader version 7.10.85.1232 for Minecraft 1.7.10 loading
-[20:52:57] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_45, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.7.0_45\jre
-[20:52:57] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[20:52:59] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[20:52:59] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[20:53:00] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:53:00] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[20:53:00] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:53:00] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:53:00] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:53:00] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[20:53:02] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[20:53:02] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:53:02] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:53:02] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:53:03] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:53:03] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[20:53:04] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[20:53:04] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[20:53:04] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[20:53:08] [main/INFO]: Setting user: Player726
-[20:53:11] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:53:12] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[20:53:12] [Client thread/INFO]: MinecraftForge v10.13.2.1232 Initialized
-[20:53:12] [Client thread/INFO]: Replaced 182 ore recipies
-[20:53:12] [Client thread/INFO]: Completed early MinecraftForge initialization
-[20:53:12] [Client thread/INFO]: Searching F:\BackWoodsMod Dev\WorkSpace\1.7\BackWoodsMod\eclipse\mods for mods
-[20:53:12] [Client thread/INFO]: Also searching F:\BackWoodsMod Dev\WorkSpace\1.7\BackWoodsMod\eclipse\mods\1.7.10 for mods
-[20:53:18] [Client thread/INFO]: Forge Mod Loader has identified 13 mods to load
-[20:53:18] [Client thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.1.99-dev.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[20:53:19] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, TheBackWoods, journeymap, NEIAddons, NEIAddons|Botany, NEIAddons|Forestry, NEIAddons|CraftingTables, NEIAddons|ExNihilo, Waila] at CLIENT
-[20:53:19] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, TheBackWoods, journeymap, NEIAddons, NEIAddons|Botany, NEIAddons|Forestry, NEIAddons|CraftingTables, NEIAddons|ExNihilo, Waila] at SERVER
-[20:53:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:The BackWoods, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Botany, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Addons: Ex Nihilo, FMLFileResourcePack:Waila
-[20:53:20] [Client thread/INFO]: Processing ObjectHolder annotations
-[20:53:21] [Client thread/INFO]: Found 411 ObjectHolder annotations
-[20:53:21] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[20:53:21] [Client thread/WARN]: ****************************************
-[20:53:21] [Client thread/WARN]: * The object com.chaka.thebackwoods.item.other.ItemRefiningPowder@298c6d15 has been registered twice for the same name TheBackWoods:refiningPowder.
-[20:53:21] [Client thread/WARN]: *  at cpw.mods.fml.common.registry.FMLControlledNamespacedRegistry.add(FMLControlledNamespacedRegistry.java:378)
-[20:53:21] [Client thread/WARN]: *  at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:838)
-[20:53:21] [Client thread/WARN]: *  at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:802)
-[20:53:21] [Client thread/WARN]: *  at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:143)
-[20:53:21] [Client thread/WARN]: *  at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:131)
-[20:53:21] [Client thread/WARN]: *  at com.chaka.thebackwoods.init.ModItems.init(ModItems.java:100)...
-[20:53:21] [Client thread/WARN]: ****************************************
-[20:53:21] [Client thread/INFO]: Pre Initialization Complete
-[20:53:21] [Client thread/INFO]: Required mod Botany is not installed, dependent features will be unavailable
-[20:53:21] [Client thread/ERROR]: Requirements unmet, Botany Addon not loading
-[20:53:21] [Client thread/INFO]: Required mod Forestry is not installed, dependent features will be unavailable
-[20:53:21] [Client thread/ERROR]: Requirements unmet, Forestry Addon not loading
-[20:53:21] [Client thread/INFO]: Required mod exnihilo is not installed, dependent features will be unavailable
-[20:53:21] [Client thread/ERROR]: Requirements unmet, Ex Nihilo Addon not loading
-[20:53:22] [Client thread/INFO]: Applying holder lookups
-[20:53:22] [Client thread/INFO]: Holder lookups applied
-[20:53:22] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:53:22] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[20:53:22] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[20:53:22] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[20:53:22] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[20:53:22] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:53:22] [Sound Library Loader/INFO]: Sound engine started
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/blocks/Test.png
+[16:28:19] [main/INFO]: No arguments specified, assuming client.
+[16:28:19] [main/INFO]: Extra: []
+[16:28:19] [main/INFO]: Running with arguments: [--userProperties, {}, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Christopher/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[16:28:19] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:28:19] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:28:19] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:28:19] [main/INFO]: Forge Mod Loader version 7.10.85.1232 for Minecraft 1.7.10 loading
+[16:28:19] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_45, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.7.0_45\jre
+[16:28:19] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[16:28:21] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:28:21] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:28:21] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:28:21] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:28:21] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:28:21] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:28:21] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:28:22] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[16:28:24] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[16:28:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:28:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:28:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:28:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:28:24] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:28:25] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[16:28:25] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[16:28:25] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[16:28:29] [main/INFO]: Setting user: Player259
+[16:28:33] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:28:34] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[16:28:34] [Client thread/INFO]: MinecraftForge v10.13.2.1232 Initialized
+[16:28:34] [Client thread/INFO]: Replaced 182 ore recipies
+[16:28:34] [Client thread/INFO]: Completed early MinecraftForge initialization
+[16:28:34] [Client thread/INFO]: Searching F:\BackWoodsMod Dev\WorkSpace\1.7\BackWoodsMod\eclipse\mods for mods
+[16:28:34] [Client thread/INFO]: Also searching F:\BackWoodsMod Dev\WorkSpace\1.7\BackWoodsMod\eclipse\mods\1.7.10 for mods
+[16:28:39] [Client thread/INFO]: Forge Mod Loader has identified 13 mods to load
+[16:28:39] [Client thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.1.99-dev.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[16:28:40] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, TheBackWoods, journeymap, NEIAddons, NEIAddons|Botany, NEIAddons|Forestry, NEIAddons|CraftingTables, NEIAddons|ExNihilo, Waila] at CLIENT
+[16:28:40] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, TheBackWoods, journeymap, NEIAddons, NEIAddons|Botany, NEIAddons|Forestry, NEIAddons|CraftingTables, NEIAddons|ExNihilo, Waila] at SERVER
+[16:28:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:The BackWoods, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Botany, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Addons: Ex Nihilo, FMLFileResourcePack:Waila
+[16:28:42] [Client thread/INFO]: Processing ObjectHolder annotations
+[16:28:42] [Client thread/INFO]: Found 411 ObjectHolder annotations
+[16:28:42] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[16:28:42] [Client thread/WARN]: ****************************************
+[16:28:42] [Client thread/WARN]: * The object com.chaka.thebackwoods.item.other.ItemRefiningPowder@6fc7d4bb has been registered twice for the same name TheBackWoods:refiningPowder.
+[16:28:42] [Client thread/WARN]: *  at cpw.mods.fml.common.registry.FMLControlledNamespacedRegistry.add(FMLControlledNamespacedRegistry.java:378)
+[16:28:42] [Client thread/WARN]: *  at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:838)
+[16:28:42] [Client thread/WARN]: *  at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:802)
+[16:28:42] [Client thread/WARN]: *  at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:143)
+[16:28:42] [Client thread/WARN]: *  at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:131)
+[16:28:42] [Client thread/WARN]: *  at com.chaka.thebackwoods.init.ModItems.init(ModItems.java:100)...
+[16:28:42] [Client thread/WARN]: ****************************************
+[16:28:42] [Client thread/INFO]: Pre Initialization Complete
+[16:28:43] [Client thread/INFO]: Required mod Botany is not installed, dependent features will be unavailable
+[16:28:43] [Client thread/ERROR]: Requirements unmet, Botany Addon not loading
+[16:28:43] [Client thread/INFO]: Required mod Forestry is not installed, dependent features will be unavailable
+[16:28:43] [Client thread/ERROR]: Requirements unmet, Forestry Addon not loading
+[16:28:43] [Client thread/INFO]: Required mod exnihilo is not installed, dependent features will be unavailable
+[16:28:43] [Client thread/ERROR]: Requirements unmet, Ex Nihilo Addon not loading
+[16:28:43] [Client thread/INFO]: Applying holder lookups
+[16:28:43] [Client thread/INFO]: Holder lookups applied
+[16:28:43] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:28:43] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[16:28:43] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[16:28:43] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:28:44] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[16:28:44] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:28:44] [Sound Library Loader/INFO]: Sound engine started
+[16:28:52] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/blocks/Test.png
 java.io.FileNotFoundException: thebackwoods:textures/blocks/Test.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -95,7 +95,7 @@ java.io.FileNotFoundException: thebackwoods:textures/blocks/Test.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/blocks/TestChest.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/blocks/TestChest.png
 java.io.FileNotFoundException: thebackwoods:textures/blocks/TestChest.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -125,7 +125,7 @@ java.io.FileNotFoundException: thebackwoods:textures/blocks/TestChest.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_2.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_2.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_2.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -155,7 +155,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_3.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_3.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_3.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -185,7 +185,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_0.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_0.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_0.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -215,7 +215,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_1.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_1.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_1.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -245,7 +245,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_0.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_0.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_0.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -275,7 +275,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_1.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_1.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_1.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -305,7 +305,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_5.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_5.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_5.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -335,7 +335,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_4.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_4.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_4.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -365,7 +365,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_3.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_3.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_3.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -395,7 +395,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_2.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_2.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_2.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -425,7 +425,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_7.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_7.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_7.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -455,7 +455,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_6.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_6.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_6.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -485,7 +485,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_5.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_5.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_5.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -515,7 +515,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_7.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_7.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_7.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -545,7 +545,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_4.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_4.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_4.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -575,7 +575,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:24] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_6.png
+[16:28:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_6.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_6.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -605,8 +605,8 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:53:25] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4131_itemCornSeed.png
+[16:28:54] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:28:54] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4131_itemCornSeed.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4131_itemCornSeed.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -636,7 +636,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4131_i
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:25] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4135_chakaMeat.png
+[16:28:54] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4135_chakaMeat.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4135_chakaMeat.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -666,7 +666,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4135_c
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:25] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/items/testItem.png
+[16:28:54] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/items/testItem.png
 java.io.FileNotFoundException: thebackwoods:textures/items/testItem.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -696,7 +696,7 @@ java.io.FileNotFoundException: thebackwoods:textures/items/testItem.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:25] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4133_TBWSeed.png
+[16:28:54] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4133_TBWSeed.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4133_TBWSeed.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -726,7 +726,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4133_T
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:25] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4134_TBWCrop.png
+[16:28:54] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4134_TBWCrop.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4134_TBWCrop.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -756,63 +756,63 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4134_T
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:25] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:53:26] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
-[20:53:26] [Client thread/INFO]: Initialization Complete
-[20:53:26] [Client thread/INFO]: JourneyMap log initialized.
-[20:53:26] [Client thread/INFO]: ensureCurrent ENTER
-[20:53:27] [Client thread/INFO]: Loaded CoreProperties from .\journeymap\config\5.0\journeymap.core.config
-[20:53:27] [Client thread/INFO]: Loaded FullMapProperties from .\journeymap\config\5.0\journeymap.fullmap.config
-[20:53:27] [Client thread/INFO]: Loaded MiniMapProperties from .\journeymap\config\5.0\journeymap.minimap.config
-[20:53:27] [Client thread/INFO]: Loaded MiniMapProperties2 from .\journeymap\config\5.0\journeymap.minimap2.config
-[20:53:27] [Client thread/INFO]: Loaded WebMapProperties from .\journeymap\config\5.0\journeymap.webmap.config
-[20:53:27] [Client thread/INFO]: Loaded WaypointProperties from .\journeymap\config\5.0\journeymap.waypoint.config
-[20:53:27] [Client thread/INFO]: ensureCurrent EXIT, elapsed time: 966.04ms
-[20:53:27] [Client thread/INFO]: Loading NEI Addons
-[20:53:27] [Client thread/INFO]: Loading Crafting Tables Addon...
-[20:53:27] [Client thread/INFO]: Required mod EE3 is not installed, dependent features will be unavailable
-[20:53:27] [Client thread/INFO]: Not registering EE3 Minium Stone
-[20:53:27] [Client thread/INFO]: Required mod BuildCraft|Factory is not installed, dependent features will be unavailable
-[20:53:27] [Client thread/INFO]: Not registering BC Autorcrafting Table
-[20:53:27] [Client thread/INFO]: Required mod powersuitaddons is not installed, dependent features will be unavailable
-[20:53:27] [Client thread/INFO]: Not registering MPSA In-Place Assembler
-[20:53:27] [Client thread/INFO]: Required mod TConstruct is not installed, dependent features will be unavailable
-[20:53:27] [Client thread/INFO]: Not registering TC Crafting Station
-[20:53:27] [Client thread/INFO]: Post Initialization Complete
-[20:53:27] [Client thread/INFO]: postInitialize ENTER
-[20:53:27] [Client thread/INFO]: Registered channel: world_info
-[20:53:28] [Client thread/INFO]: Initializing icon sets...
-[20:53:29] [Client thread/INFO]: Started webserver on port 8080
-[20:53:29] [Client thread/INFO]: postInitialize EXIT, elapsed time: 1392.72ms
-[20:53:29] [Client thread/WARN]: =============================================================
-[20:53:29] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
-[20:53:29] [Client thread/WARN]: Offendor: mcp/mobius/waila/gui/truetyper/TrueTypeFont.loadImage(Ljava/awt/image/BufferedImage;)I
-[20:53:29] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
-[20:53:29] [Client thread/WARN]: =============================================================
-[20:53:29] [Client thread/INFO]: [mcp.mobius.waila.gui.truetyper.TrueTypeFont:<init>:98]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
-[20:53:29] [Client thread/WARN]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
-[20:53:29] [Client thread/INFO]: [Thaumcraft] Thaumcraft mod not found.
-[20:53:29] [Client thread/INFO]: [EnderStorage] EnderStorage mod not found.
-[20:53:29] [Client thread/INFO]: [GraveStone] GraveStone mod not found.
-[20:53:29] [Client thread/INFO]: [TwilightForestMod] TwilightForestMod mod not found.
-[20:53:29] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy hooks.java.lang.ClassNotFoundException: cofh.api.energy.IEnergyHandler
-[20:53:29] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: thermalexpansion.block.cell.TileCell
-[20:53:29] [Client thread/WARN]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: thermalexpansion.block.tank.TileTank
-[20:53:29] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: thermalexpansion.block.ender.TileTesseract
-[20:53:29] [Client thread/WARN]: [Thermal Expansion] Error while loading ISecureTile hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.ISecurable
-[20:53:29] [Client thread/INFO]: [Engineer Toolbox] Engineer Toolbox mod not found.
-[20:53:29] [Client thread/INFO]: [EnderIO] EnderIO mod not found.
-[20:53:29] [Client thread/INFO]: [ProjectRed] ProjectRed|Integration mod not found.
-[20:53:29] [Client thread/INFO]: [ExtraUtilities] ExtraUtilities mod not found.
-[20:53:29] [Client thread/INFO]: [OpenBlocks] OpenBlocks mod not found.
-[20:53:29] [Client thread/INFO]: [Railcraft] Railcraft mod not found.
-[20:53:29] [Client thread/INFO]: [PamHarvestCraft] PamHarvestCraft mod not found.
-[20:53:29] [Client thread/INFO]: [MagicalCrops] MagicalCrops mod not found.
-[20:53:29] [Client thread/INFO]: [Statues] Statues mod not found.
-[20:53:29] [Client thread/INFO]: [Agriculture] Agriculture mod not found.
-[20:53:29] [Client thread/INFO]: Forge Mod Loader has successfully loaded 13 mods
-[20:53:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:The BackWoods, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Botany, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Addons: Ex Nihilo, FMLFileResourcePack:Waila
-[20:53:29] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4131_itemCornSeed.png
+[16:28:54] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:28:54] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
+[16:28:55] [Client thread/INFO]: Initialization Complete
+[16:28:55] [Client thread/INFO]: JourneyMap log initialized.
+[16:28:55] [Client thread/INFO]: ensureCurrent ENTER
+[16:28:56] [Client thread/INFO]: Loaded CoreProperties from .\journeymap\config\5.0\journeymap.core.config
+[16:28:56] [Client thread/INFO]: Loaded FullMapProperties from .\journeymap\config\5.0\journeymap.fullmap.config
+[16:28:56] [Client thread/INFO]: Loaded MiniMapProperties from .\journeymap\config\5.0\journeymap.minimap.config
+[16:28:56] [Client thread/INFO]: Loaded MiniMapProperties2 from .\journeymap\config\5.0\journeymap.minimap2.config
+[16:28:56] [Client thread/INFO]: Loaded WebMapProperties from .\journeymap\config\5.0\journeymap.webmap.config
+[16:28:56] [Client thread/INFO]: Loaded WaypointProperties from .\journeymap\config\5.0\journeymap.waypoint.config
+[16:28:56] [Client thread/INFO]: ensureCurrent EXIT, elapsed time: 1597.36ms
+[16:28:56] [Client thread/INFO]: Loading NEI Addons
+[16:28:56] [Client thread/INFO]: Loading Crafting Tables Addon...
+[16:28:56] [Client thread/INFO]: Required mod EE3 is not installed, dependent features will be unavailable
+[16:28:56] [Client thread/INFO]: Not registering EE3 Minium Stone
+[16:28:56] [Client thread/INFO]: Required mod BuildCraft|Factory is not installed, dependent features will be unavailable
+[16:28:56] [Client thread/INFO]: Not registering BC Autorcrafting Table
+[16:28:56] [Client thread/INFO]: Required mod powersuitaddons is not installed, dependent features will be unavailable
+[16:28:56] [Client thread/INFO]: Not registering MPSA In-Place Assembler
+[16:28:56] [Client thread/INFO]: Required mod TConstruct is not installed, dependent features will be unavailable
+[16:28:56] [Client thread/INFO]: Not registering TC Crafting Station
+[16:28:57] [Client thread/INFO]: Post Initialization Complete
+[16:28:57] [Client thread/INFO]: postInitialize ENTER
+[16:28:57] [Client thread/INFO]: Registered channel: world_info
+[16:28:58] [Client thread/INFO]: Initializing icon sets...
+[16:28:59] [Client thread/INFO]: Started webserver on port 8080
+[16:28:59] [Client thread/INFO]: postInitialize EXIT, elapsed time: 1943.72ms
+[16:28:59] [Client thread/WARN]: =============================================================
+[16:28:59] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[16:28:59] [Client thread/WARN]: Offendor: mcp/mobius/waila/gui/truetyper/TrueTypeFont.loadImage(Ljava/awt/image/BufferedImage;)I
+[16:28:59] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
+[16:28:59] [Client thread/WARN]: =============================================================
+[16:28:59] [Client thread/INFO]: [mcp.mobius.waila.gui.truetyper.TrueTypeFont:<init>:98]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
+[16:28:59] [Client thread/WARN]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
+[16:28:59] [Client thread/INFO]: [Thaumcraft] Thaumcraft mod not found.
+[16:28:59] [Client thread/INFO]: [EnderStorage] EnderStorage mod not found.
+[16:28:59] [Client thread/INFO]: [GraveStone] GraveStone mod not found.
+[16:28:59] [Client thread/INFO]: [TwilightForestMod] TwilightForestMod mod not found.
+[16:28:59] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy hooks.java.lang.ClassNotFoundException: cofh.api.energy.IEnergyHandler
+[16:28:59] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: thermalexpansion.block.cell.TileCell
+[16:28:59] [Client thread/WARN]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: thermalexpansion.block.tank.TileTank
+[16:28:59] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: thermalexpansion.block.ender.TileTesseract
+[16:28:59] [Client thread/WARN]: [Thermal Expansion] Error while loading ISecureTile hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.ISecurable
+[16:28:59] [Client thread/INFO]: [Engineer Toolbox] Engineer Toolbox mod not found.
+[16:28:59] [Client thread/INFO]: [EnderIO] EnderIO mod not found.
+[16:28:59] [Client thread/INFO]: [ProjectRed] ProjectRed|Integration mod not found.
+[16:28:59] [Client thread/INFO]: [ExtraUtilities] ExtraUtilities mod not found.
+[16:28:59] [Client thread/INFO]: [OpenBlocks] OpenBlocks mod not found.
+[16:28:59] [Client thread/INFO]: [Railcraft] Railcraft mod not found.
+[16:28:59] [Client thread/INFO]: [PamHarvestCraft] PamHarvestCraft mod not found.
+[16:28:59] [Client thread/INFO]: [MagicalCrops] MagicalCrops mod not found.
+[16:28:59] [Client thread/INFO]: [Statues] Statues mod not found.
+[16:28:59] [Client thread/INFO]: [Agriculture] Agriculture mod not found.
+[16:28:59] [Client thread/INFO]: Forge Mod Loader has successfully loaded 13 mods
+[16:28:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:The BackWoods, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Botany, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Addons: Ex Nihilo, FMLFileResourcePack:Waila
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4131_itemCornSeed.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4131_itemCornSeed.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -845,7 +845,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4131_i
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:29] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4135_chakaMeat.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4135_chakaMeat.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4135_chakaMeat.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -878,7 +878,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4135_c
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:29] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/items/testItem.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/items/testItem.png
 java.io.FileNotFoundException: thebackwoods:textures/items/testItem.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -911,7 +911,7 @@ java.io.FileNotFoundException: thebackwoods:textures/items/testItem.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:29] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4133_TBWSeed.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4133_TBWSeed.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4133_TBWSeed.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -944,7 +944,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4133_T
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:29] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4134_TBWCrop.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4134_TBWCrop.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4134_TBWCrop.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -977,8 +977,8 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4134_T
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:29] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:53:29] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/blocks/Test.png
+[16:29:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/blocks/Test.png
 java.io.FileNotFoundException: thebackwoods:textures/blocks/Test.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1011,7 +1011,7 @@ java.io.FileNotFoundException: thebackwoods:textures/blocks/Test.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/blocks/TestChest.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load thebackwoods:textures/blocks/TestChest.png
 java.io.FileNotFoundException: thebackwoods:textures/blocks/TestChest.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1044,7 +1044,7 @@ java.io.FileNotFoundException: thebackwoods:textures/blocks/TestChest.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_2.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_2.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_2.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1077,7 +1077,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_3.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_3.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_3.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1110,7 +1110,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_0.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_0.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_0.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1143,7 +1143,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_1.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_1.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_1.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1176,7 +1176,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_0.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_0.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_0.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1209,7 +1209,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_1.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_1.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_1.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1242,7 +1242,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_5.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_5.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_5.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1275,7 +1275,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_4.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_4.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_4.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1308,7 +1308,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_3.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_3.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_3.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1341,7 +1341,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_2.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_2.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_2.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1374,7 +1374,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_7.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_7.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_7.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1407,7 +1407,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_6.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_6.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_6.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1440,7 +1440,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_5.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_5.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_5.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1473,7 +1473,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_7.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_7.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_7.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1506,7 +1506,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_4.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_4.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_BlockTBWCrop_stage_4.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1539,7 +1539,7 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_240_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_6.png
+[16:29:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_6.png
 java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_cornBlock_stage_6.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -1572,118 +1572,74 @@ java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_238_
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:53:30] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:53:30] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:53:30] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[20:53:30] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[20:53:30] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:53:30] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:53:30] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[20:53:31] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[20:53:31] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[20:53:31] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[20:53:31] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:53:31] [Sound Library Loader/INFO]: Sound engine started
-[20:53:37] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:53:37] [Server thread/INFO]: Generating keypair
-[20:53:37] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[20:53:37] [Server thread/INFO]: Applying holder lookups
-[20:53:37] [Server thread/INFO]: Holder lookups applied
-[20:53:37] [Server thread/INFO]: Loading dimension 0 (World) (net.minecraft.server.integrated.IntegratedServer@2f727383)
-[20:53:37] [Server thread/INFO]: Loading dimension 1 (World) (net.minecraft.server.integrated.IntegratedServer@2f727383)
-[20:53:37] [Server thread/INFO]: Loading dimension -1 (World) (net.minecraft.server.integrated.IntegratedServer@2f727383)
-[20:53:37] [Server thread/INFO]: Preparing start region for level 0
-[20:53:38] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:53:39] [Netty Client IO #0/INFO]: Server protocol version 1
-[20:53:39] [Netty IO #1/INFO]: Client protocol version 1
-[20:53:39] [Netty IO #1/INFO]: Client attempting to join with 13 mods : TheBackWoods@1.7.10-1.0,Forge@10.13.2.1232,CodeChickenCore@1.0.4.29,NEIAddons@1.12.2.9,Waila@1.5.5,mcp@9.05,FML@7.10.85.1232,NotEnoughItems@1.0.3.62,NEIAddons|Botany@1.12.2.9,NEIAddons|Forestry@1.12.2.9,NEIAddons|CraftingTables@1.12.2.9,NEIAddons|ExNihilo@1.12.2.9,journeymap@5.0.0RC1
-[20:53:39] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[20:53:39] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[20:53:39] [Client thread/INFO]: [Client thread] Client side modded connection established
-[20:53:39] [Server thread/INFO]: [Server thread] Server side modded connection established
-[20:53:39] [Server thread/INFO]: Player726[local:E:eb6d735d] logged in with entity id 138 at (-443.23568836909976, 4.0, -1322.275825145465)
-[20:53:39] [Server thread/INFO]: Player726 joined the game
-[20:53:39] [Server thread/INFO]: Player EntityPlayerMP['Player726'/138, l='World', x=-443.24, y=4.00, z=-1322.28] connected. Sending ping
-[20:53:39] [Server thread/INFO]: World changed, resetting
-[20:53:47] [Client thread/INFO]: World changed, resetting
-[20:53:47] [Client thread/INFO]: Available server commands: 
-[20:53:47] [Client thread/INFO]: Received server authentication msg. Remote sync will be activated
-[20:53:49] [Client thread/INFO]: Loaded 0 waypoints from .\journeymap\data\sp\World\waypoints
-[20:53:49] [Client thread/INFO]: Getting color palette for Resource Pack(s): Default
-[20:53:50] [Client thread/INFO]: Color palette loaded 1552 colors in 128ms from file: .\journeymap\colorpalette.json
-[20:53:50] [Client thread/INFO]: Mapping started in .\journeymap\data\sp\World\DIM0. Memory: 990MB total, 750MB free 
-[20:53:50] [JM-VersionCheck-7/INFO]: Checking for updated version: https://dl.dropboxusercontent.com/u/38077766/JourneyMap/journeymap-versions.json
-[20:53:50] [Client thread/INFO]: [CHAT] §eJourneyMap:§f §eJourneyMap 5.0.0RC1 Unlimited ready.
-[20:53:50] [Client thread/INFO]: JourneyMap: JourneyMap 5.0.0RC1 Unlimited ready.
-[20:53:50] [Client thread/INFO]: [CHAT] §eJourneyMap:§f Press [§bM§f] or open browser to§b http://localhost:8080 §f
-[20:53:50] [Client thread/INFO]: JourneyMap: Press [M] or open browser to http://localhost:8080 
-[20:53:50] [JM-VersionCheck-7/INFO]: For Minecraft 1.7.10, JourneyMap version available online: 4.0.5
-[20:53:51] [Server thread/INFO]: Player726 has just earned the achievement [Taking Inventory]
-[20:53:52] [Client thread/INFO]: [CHAT] Player726 has just earned the achievement [Taking Inventory]
-[20:53:54] [Server thread/INFO]: [Player726: Given [item.itemCornCrop.name] * 1 to Player726]
-[20:53:54] [Client thread/INFO]: [CHAT] Given [item.itemCornCrop.name] * 1 to Player726
-[20:54:02] [Server thread/INFO]: Saving and pausing game...
-[20:54:02] [Server thread/INFO]: Saving chunks for level 'World'/Overworld
-[20:54:02] [Server thread/INFO]: Saving chunks for level 'World'/Nether
-[20:54:02] [Server thread/INFO]: Saving chunks for level 'World'/The End
-[20:54:03] [Client thread/INFO]: Mapping halted in .\journeymap\data\sp\World\DIM0
-[20:54:03] [JM-task-8/WARN]: MapPlayerTask.performTask is not running.
-[20:54:03] [Server thread/INFO]: Stopping server
-[20:54:03] [Server thread/INFO]: Saving players
-[20:54:03] [Server thread/INFO]: Saving worlds
-[20:54:03] [Server thread/INFO]: Saving chunks for level 'World'/Overworld
-[20:54:03] [Server thread/INFO]: Saving chunks for level 'World'/Nether
-[20:54:03] [Server thread/INFO]: Saving chunks for level 'World'/The End
-[20:54:03] [Server thread/INFO]: Unloading dimension 0
-[20:54:03] [Server thread/INFO]: Unloading dimension -1
-[20:54:03] [Server thread/INFO]: Unloading dimension 1
-[20:54:03] [Server thread/INFO]: Applying holder lookups
-[20:54:03] [Server thread/INFO]: Holder lookups applied
-[20:54:07] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:54:07] [Server thread/INFO]: Generating keypair
-[20:54:07] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[20:54:07] [Server thread/INFO]: Applying holder lookups
-[20:54:07] [Server thread/INFO]: Holder lookups applied
-[20:54:07] [Server thread/INFO]: Loading dimension 0 (World) (net.minecraft.server.integrated.IntegratedServer@7c5fd598)
-[20:54:07] [Server thread/INFO]: Loading dimension 1 (World) (net.minecraft.server.integrated.IntegratedServer@7c5fd598)
-[20:54:07] [Server thread/INFO]: Loading dimension -1 (World) (net.minecraft.server.integrated.IntegratedServer@7c5fd598)
-[20:54:07] [Server thread/INFO]: Preparing start region for level 0
-[20:54:08] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:54:08] [Netty Client IO #1/INFO]: Server protocol version 1
-[20:54:08] [Netty IO #3/INFO]: Client protocol version 1
-[20:54:08] [Netty IO #3/INFO]: Client attempting to join with 13 mods : TheBackWoods@1.7.10-1.0,Forge@10.13.2.1232,CodeChickenCore@1.0.4.29,NEIAddons@1.12.2.9,Waila@1.5.5,mcp@9.05,FML@7.10.85.1232,NotEnoughItems@1.0.3.62,NEIAddons|Botany@1.12.2.9,NEIAddons|Forestry@1.12.2.9,NEIAddons|CraftingTables@1.12.2.9,NEIAddons|ExNihilo@1.12.2.9,journeymap@5.0.0RC1
-[20:54:08] [Netty IO #3/INFO]: Attempting connection with missing mods [] at CLIENT
-[20:54:08] [Netty Client IO #1/INFO]: Attempting connection with missing mods [] at SERVER
-[20:54:08] [Client thread/INFO]: [Client thread] Client side modded connection established
-[20:54:08] [Server thread/INFO]: [Server thread] Server side modded connection established
-[20:54:08] [Server thread/INFO]: Player726[local:E:74949552] logged in with entity id 77348 at (-452.91250441275866, 4.104080378093037, -1331.8203568148847)
-[20:54:08] [Server thread/INFO]: Player726 joined the game
-[20:54:08] [Server thread/INFO]: Player EntityPlayerMP['Player726'/77348, l='World', x=-452.91, y=4.10, z=-1331.82] connected. Sending ping
-[20:54:08] [Server thread/INFO]: World changed, resetting
-[20:54:08] [Client thread/INFO]: World changed, resetting
-[20:54:08] [Client thread/INFO]: Available server commands: 
-[20:54:08] [Client thread/INFO]: Received server authentication msg. Remote sync will be activated
-[20:54:09] [Client thread/INFO]: Loaded 0 waypoints from .\journeymap\data\sp\World\waypoints
-[20:54:09] [Client thread/INFO]: Mapping started in .\journeymap\data\sp\World\DIM0. Memory: 990MB total, 742MB free 
-[20:54:14] [Server thread/INFO]: Saving and pausing game...
-[20:54:14] [Server thread/INFO]: Saving chunks for level 'World'/Overworld
-[20:54:14] [Server thread/INFO]: Saving chunks for level 'World'/Nether
-[20:54:14] [Server thread/INFO]: Saving chunks for level 'World'/The End
-[20:54:14] [Client thread/INFO]: Mapping halted in .\journeymap\data\sp\World\DIM0
-[20:54:14] [JM-task-9/WARN]: MapPlayerTask.performTask is not running.
-[20:54:14] [Server thread/INFO]: Stopping server
-[20:54:14] [Server thread/INFO]: Saving players
-[20:54:14] [Server thread/INFO]: Saving worlds
-[20:54:14] [Server thread/INFO]: Saving chunks for level 'World'/Overworld
-[20:54:14] [Server thread/INFO]: Saving chunks for level 'World'/Nether
-[20:54:14] [Server thread/INFO]: Saving chunks for level 'World'/The End
-[20:54:14] [Server thread/INFO]: Unloading dimension 0
-[20:54:14] [Server thread/INFO]: Unloading dimension -1
-[20:54:14] [Server thread/INFO]: Unloading dimension 1
-[20:54:14] [Server thread/INFO]: Applying holder lookups
-[20:54:14] [Server thread/INFO]: Holder lookups applied
-[20:54:15] [Client thread/INFO]: Stopping!
-[20:54:15] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:54:15] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[20:54:16] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[20:54:16] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:29:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:29:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:29:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[16:29:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[16:29:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:29:01] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:29:01] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[16:29:01] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[16:29:01] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:29:01] [Thread-12/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[16:29:01] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:29:01] [Sound Library Loader/INFO]: Sound engine started
+[16:29:09] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:29:09] [Server thread/INFO]: Generating keypair
+[16:29:09] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[16:29:09] [Server thread/INFO]: Applying holder lookups
+[16:29:09] [Server thread/INFO]: Holder lookups applied
+[16:29:10] [Server thread/INFO]: Loading dimension 0 (World) (net.minecraft.server.integrated.IntegratedServer@410351d1)
+[16:29:10] [Server thread/INFO]: Loading dimension 1 (World) (net.minecraft.server.integrated.IntegratedServer@410351d1)
+[16:29:10] [Server thread/INFO]: Loading dimension -1 (World) (net.minecraft.server.integrated.IntegratedServer@410351d1)
+[16:29:10] [Server thread/INFO]: Preparing start region for level 0
+[16:29:11] [Server thread/INFO]: Changing view distance to 12, from 10
+[16:29:12] [Netty Client IO #0/INFO]: Server protocol version 1
+[16:29:12] [Netty IO #1/INFO]: Client protocol version 1
+[16:29:12] [Netty IO #1/INFO]: Client attempting to join with 13 mods : TheBackWoods@1.7.10-1.0,Forge@10.13.2.1232,CodeChickenCore@1.0.4.29,NEIAddons@1.12.2.9,Waila@1.5.5,mcp@9.05,FML@7.10.85.1232,NotEnoughItems@1.0.3.62,NEIAddons|Botany@1.12.2.9,NEIAddons|Forestry@1.12.2.9,NEIAddons|CraftingTables@1.12.2.9,NEIAddons|ExNihilo@1.12.2.9,journeymap@5.0.0RC1
+[16:29:12] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[16:29:12] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[16:29:12] [Server thread/INFO]: [Server thread] Server side modded connection established
+[16:29:12] [Client thread/INFO]: [Client thread] Client side modded connection established
+[16:29:12] [Server thread/INFO]: Player259[local:E:9ecfa690] logged in with entity id 137 at (-452.91250441275866, 4.0, -1331.8203568148847)
+[16:29:12] [Server thread/INFO]: Player259 joined the game
+[16:29:13] [Server thread/INFO]: Player EntityPlayerMP['Player259'/137, l='World', x=-452.91, y=4.00, z=-1331.82] connected. Sending ping
+[16:29:13] [Server thread/INFO]: World changed, resetting
+[16:29:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2907ms behind, skipping 58 tick(s)
+[16:29:21] [Client thread/INFO]: World changed, resetting
+[16:29:21] [Client thread/INFO]: Available server commands: 
+[16:29:21] [Client thread/INFO]: Received server authentication msg. Remote sync will be activated
+[16:29:23] [Client thread/INFO]: Loaded 0 waypoints from .\journeymap\data\sp\World\waypoints
+[16:29:23] [Client thread/INFO]: Getting color palette for Resource Pack(s): Default
+[16:29:23] [Client thread/INFO]: Color palette loaded 1552 colors in 76ms from file: .\journeymap\colorpalette.json
+[16:29:23] [Client thread/INFO]: Mapping started in .\journeymap\data\sp\World\DIM0. Memory: 990MB total, 749MB free 
+[16:29:23] [Client thread/INFO]: [CHAT] §eJourneyMap:§f §eJourneyMap 5.0.0RC1 Unlimited ready.
+[16:29:23] [Client thread/INFO]: JourneyMap: JourneyMap 5.0.0RC1 Unlimited ready.
+[16:29:23] [Client thread/INFO]: [CHAT] §eJourneyMap:§f Press [§bM§f] or open browser to§b http://localhost:8080 §f
+[16:29:23] [Client thread/INFO]: JourneyMap: Press [M] or open browser to http://localhost:8080 
+[16:29:23] [JM-VersionCheck-7/INFO]: Checking for updated version: https://dl.dropboxusercontent.com/u/38077766/JourneyMap/journeymap-versions.json
+[16:29:24] [JM-VersionCheck-7/INFO]: For Minecraft 1.7.10, JourneyMap version available online: 4.0.5
+[16:29:27] [Server thread/INFO]: Saving and pausing game...
+[16:29:27] [Server thread/INFO]: Saving chunks for level 'World'/Overworld
+[16:29:27] [Server thread/INFO]: Saving chunks for level 'World'/Nether
+[16:29:27] [Server thread/INFO]: Saving chunks for level 'World'/The End
+[16:29:27] [Client thread/INFO]: Mapping halted in .\journeymap\data\sp\World\DIM0
+[16:29:27] [JM-task-8/WARN]: MapPlayerTask.performTask is not running.
+[16:29:27] [JM-task-8/WARN]: Interrupted task that ran too long:net.techbrew.journeymap.task.TaskBatch@ed545da
+[16:29:27] [Server thread/INFO]: Stopping server
+[16:29:27] [Server thread/INFO]: Saving players
+[16:29:27] [Server thread/INFO]: Saving worlds
+[16:29:27] [Server thread/INFO]: Saving chunks for level 'World'/Overworld
+[16:29:27] [Server thread/INFO]: Saving chunks for level 'World'/Nether
+[16:29:27] [Server thread/INFO]: Saving chunks for level 'World'/The End
+[16:29:28] [Server thread/INFO]: Unloading dimension 0
+[16:29:28] [Server thread/INFO]: Unloading dimension -1
+[16:29:28] [Server thread/INFO]: Unloading dimension 1
+[16:29:28] [Server thread/INFO]: Applying holder lookups
+[16:29:28] [Server thread/INFO]: Holder lookups applied
+[16:29:29] [Client thread/INFO]: Stopping!
+[16:29:29] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:29:29] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[16:29:29] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[16:29:29] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:29:29] [JM-svr-2/INFO]: Stopped webserver without errors
