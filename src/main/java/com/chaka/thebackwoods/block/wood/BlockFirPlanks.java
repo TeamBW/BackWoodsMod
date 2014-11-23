@@ -11,5 +11,6 @@ public class BlockFirPlanks extends BlockTBW {
         this.setBlockName("firPlanks");
         this.setStepSound(soundTypeWood);
         this.setHardness(1.5F);
+        this.setHarvestLevel("axe", 0);
     }
 }

@@ -13,5 +13,6 @@ public class BlockLeadBlock extends BlockTBW {
         this.setBlockName("leadBlock");
         this.setStepSound(soundTypeMetal);
         this.setHardness(5.0F);
+        this.setHarvestLevel("pickaxe", 2);
     }
 }

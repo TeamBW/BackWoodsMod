@@ -12,5 +12,6 @@ public class BlockDeadWoodPlanks extends BlockTBW {
         this.setBlockName("deadWoodPlanks");
         this.setStepSound(soundTypeWood);
         this.setHardness(1.0F);
+        this.setHarvestLevel("axe", 0);
     }
 }

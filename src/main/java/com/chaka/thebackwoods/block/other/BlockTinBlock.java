@@ -13,5 +13,6 @@ public class BlockTinBlock extends BlockTBW {
         this.setBlockName("tinBlock");
         this.setStepSound(soundTypeMetal);
         this.setHardness(5.0F);
+        this.setHarvestLevel("pickaxe", 2);
     }
 }

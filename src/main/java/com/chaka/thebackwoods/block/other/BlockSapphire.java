@@ -11,5 +11,6 @@ public class BlockSapphire extends BlockTBW {
         this.setBlockName("sapphire");
         this.setStepSound(soundTypeMetal);
         this.setHardness(5.0F);
+        this.setHarvestLevel("pickaxe", 2);
     }
 }

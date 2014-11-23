@@ -11,6 +11,11 @@ public class ItemAmethystShovel extends ItemTBWShovel {
         super(material);
         this.setUnlocalizedName("amethystShovel");
         this.maxStackSize = 1;
+        this.getItemStackDisplayName("");
+    }
+
+    private void getItemStackDisplayName(String s) {
+
     }
 
     @SideOnly(Side.CLIENT)

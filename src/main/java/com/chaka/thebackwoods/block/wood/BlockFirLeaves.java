@@ -14,6 +14,7 @@ public class BlockFirLeaves extends BlockTBW {
         this.setBlockName("firLeaves");
         this.setStepSound(soundTypeGrass);
         this.setHardness(1.5F);
+        this.setHarvestLevel("axe", 0);
     }
 
     public boolean isOpaqueCube(){

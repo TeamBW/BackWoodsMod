@@ -21,7 +21,7 @@ public class ConfigurationHandler {
     }
     private static void loadConfiguration() {
 
-        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
+        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "Enables or Disables Hard Recipes");
         if (configuration.hasChanged()) {
             configuration.save();
         }
@@ -32,6 +32,8 @@ public class ConfigurationHandler {
         if (event.modID.equalsIgnoreCase(Reference.MOD_ID)) {
 
             loadConfiguration();
+        } else {
+            System.out.println("Hi, Im Bob.   Not Really.");
         }
     }
 }

@@ -5,6 +5,7 @@ import com.chaka.thebackwoods.handler.ConfigurationHandler;
 import com.chaka.thebackwoods.init.ModBlocks;
 import com.chaka.thebackwoods.init.ModItems;
 import com.chaka.thebackwoods.init.Recipes;
+import com.chaka.thebackwoods.init.RegisterOres;
 import com.chaka.thebackwoods.proxy.IProxy;
 import com.chaka.thebackwoods.reference.Reference;
 import com.chaka.thebackwoods.tile_entity.TBWTileEntity;
@@ -19,9 +20,12 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockObsidian;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
 import net.minecraft.world.WorldType;
+import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class TheBackWoods {
@@ -44,6 +48,7 @@ public class TheBackWoods {
 
         ModItems.init();
         ModBlocks.init();
+        RegisterOres.init();
 
         LogHelper.info("Pre Initialization Complete");
 
@@ -66,6 +71,8 @@ public class TheBackWoods {
         Recipes.init();
 
         LogHelper.info("Initialization Complete");
+
+
     }
 
     @Mod.EventHandler

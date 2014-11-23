@@ -12,5 +12,11 @@ public class BlockDeadWoodSlab extends BlockTBW {
         this.setStepSound(soundTypeWood);
         this.setHardness(1.0F);
         this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 0.5F, 1.0F);
+        this.setHarvestLevel("axe", 0);
+    }
+
+    public boolean isOpaqueCube(){
+
+        return false;
     }
 }

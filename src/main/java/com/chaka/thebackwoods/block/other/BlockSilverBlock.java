@@ -13,5 +13,6 @@ public class BlockSilverBlock extends BlockTBW {
         this.setBlockName("silverBlock");
         this.setStepSound(soundTypeMetal);
         this.setHardness(5.0F);
+        this.setHarvestLevel("pickaxe", 2);
     }
 }

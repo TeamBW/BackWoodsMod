@@ -10,5 +10,6 @@ public class BlockPuddingStone extends BlockTBW {
         super(Material.rock);
         this.setBlockName("puddingStone");
         this.setHardness(1.5F);
+        this.setHarvestLevel("pickaxe", 2);
     }
 }

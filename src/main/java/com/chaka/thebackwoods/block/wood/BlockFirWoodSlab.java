@@ -11,6 +11,7 @@ public class BlockFirWoodSlab extends BlockTBWSlab {
         this.setBlockName("firWoodSlab");
         this.setStepSound(soundTypeWood);
         this.setHardness(1.5F);
+        this.setHarvestLevel("axe", 0);
 
         if (bool)
         {

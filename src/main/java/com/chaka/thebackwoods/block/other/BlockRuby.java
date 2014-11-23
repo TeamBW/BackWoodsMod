@@ -12,5 +12,6 @@ public class BlockRuby extends BlockTBW {
         this.setStepSound(soundTypeMetal);
         this.setHardness(5.0F);
         this.getHarvestLevel(2);
+        this.setHarvestLevel("pickaxe", 2);
     }
 }

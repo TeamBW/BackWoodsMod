@@ -1,25 +1,28 @@
-package com.chaka.thebackwoods.item.tool;
+package com.chaka.thebackwoods.item.wand;
 
-import com.chaka.thebackwoods.creativetab.CreativeTabTBWItems;
-import com.chaka.thebackwoods.creativetab.CreativeTabTBWTools;
+import com.chaka.thebackwoods.creativetab.CreativeTabTBWMagic;
 import com.chaka.thebackwoods.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemSword;
 
 import java.util.List;
 
-public class ItemTBWSword extends ItemSword {
+public class ItemTBWWand extends Item {
 
-    public ItemTBWSword(ToolMaterial material) {
+    public ItemTBWWand() {
 
-        super(material);
-        this.setCreativeTab(CreativeTabTBWTools.TBW_TAB_TOOLS);
+        super();
+        this.setUnlocalizedName("wandWood");
+        this.setCreativeTab(CreativeTabTBWMagic.TBW_TAB_MAGIC);
+        this.hasSubtypes();
+        this.setFull3D();
+    }
+
+    private void hasSubtypes() {
+
     }
 
     @Override
@@ -45,5 +48,4 @@ public class ItemTBWSword extends ItemSword {
 
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
-
 }

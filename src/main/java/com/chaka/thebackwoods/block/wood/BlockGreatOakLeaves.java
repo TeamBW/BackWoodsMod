@@ -13,6 +13,7 @@ public class BlockGreatOakLeaves extends BlockTBW {
         this.setBlockName("greatOakLeaves");
         this.setStepSound(soundTypeGrass);
         this.setHardness(1.5F);
+        this.setHarvestLevel("axe", 0);
     }
 
     public boolean isOpaqueCube(){

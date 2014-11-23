@@ -11,5 +11,6 @@ public class BlockRefinedObsidian extends BlockTBW {
         this.setBlockName("refinedObsidian");
         this.setStepSound(soundTypeStone);
         this.setHardness(20.0F);
+        this.setHarvestLevel("pickaxe", 3);
     }
 }

@@ -14,6 +14,7 @@ public class BlockMossyRock extends BlockTBW {
         super(Material.rock);
         this.setBlockName("mossyRock");
         this.setHardness(1.5F);
+        this.setHarvestLevel("pickaxe", 1);
     }
 
 

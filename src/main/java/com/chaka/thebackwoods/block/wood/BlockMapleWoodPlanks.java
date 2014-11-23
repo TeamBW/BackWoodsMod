@@ -11,5 +11,6 @@ public class BlockMapleWoodPlanks extends BlockTBW {
         this.setBlockName("mapleWoodPlanks");
         this.setStepSound(soundTypeWood);
         this.setHardness(1.5F);
+        this.setHarvestLevel("axe", 0);
     }
 }

@@ -11,5 +11,6 @@ public class BlockGreatOakPlanks extends BlockTBW {
         this.setBlockName("greatOakPlanks");
         this.setStepSound(soundTypeWood);
         this.setHardness(1.5F);
+        this.setHarvestLevel("axe", 0);
     }
 }

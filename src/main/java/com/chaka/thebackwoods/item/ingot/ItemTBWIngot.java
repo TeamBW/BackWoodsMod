@@ -1,4 +1,4 @@
-package com.chaka.thebackwoods.item.tool;
+package com.chaka.thebackwoods.item.ingot;
 
 import com.chaka.thebackwoods.creativetab.CreativeTabTBWItems;
 import com.chaka.thebackwoods.creativetab.CreativeTabTBWTools;
@@ -14,12 +14,18 @@ import net.minecraft.item.ItemSword;
 
 import java.util.List;
 
-public class ItemTBWSword extends ItemSword {
+public class ItemTBWIngot extends ItemSword {
 
-    public ItemTBWSword(ToolMaterial material) {
+    public ItemTBWIngot(ToolMaterial material) {
 
         super(material);
-        this.setCreativeTab(CreativeTabTBWTools.TBW_TAB_TOOLS);
+        this.setCreativeTab(CreativeTabTBWItems.TBW_TAB_ITEMS);
+        this.hasSubtypes(true);
+        this.setUnlocalizedName("itemTBWIngot");
+    }
+
+    private void hasSubtypes(boolean b) {
+
     }
 
     @Override
@@ -46,4 +52,12 @@ public class ItemTBWSword extends ItemSword {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
 
+    public void getSubItems(Item i, CreativeTabs c, List l) {
+
+        l.add(new ItemStack(i, 1, 0));
+        l.add(new ItemStack(i, 1, 1));
+        l.add(new ItemStack(i, 1, 2));
+        l.add(new ItemStack(i, 1, 3));
+        l.add(new ItemStack(i, 1, 4));
+    }
 }

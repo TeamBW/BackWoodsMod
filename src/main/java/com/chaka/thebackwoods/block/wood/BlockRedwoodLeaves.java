@@ -14,6 +14,7 @@ public class BlockRedwoodLeaves extends BlockTBW {
         this.setBlockName("redwoodLeaves");
         this.setStepSound(soundTypeGrass);
         this.setHardness(1.5F);
+        this.setHarvestLevel("axe", 0);
     }
 
     public boolean isOpaqueCube(){

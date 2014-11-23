@@ -19,6 +19,7 @@ public class BlockAmethystOre extends BlockTBW {
         this.setBlockName("amethystOre");
         this.setStepSound(soundTypeStone);
         this.setHardness(2.0F);
+        this.setHarvestLevel("pickaxe", 3);
     }
 
     public Item getItemDropped(int metadata, Random rand, int fortune) {

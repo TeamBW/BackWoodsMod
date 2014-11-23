@@ -12,5 +12,6 @@ public class BlockMossyGranite extends BlockTBW {
         this.setStepSound(soundTypeStone);
         this.getHarvestLevel(1);
         this.setHardness(1.5F);
+        this.setHarvestLevel("pickaxe", 2);
     }
 }

@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Random;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
 import net.minecraft.init.Blocks;
@@ -15,8 +16,7 @@ import net.minecraft.util.Facing;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public abstract class BlockTBWSlab extends BlockTBW
-{
+public abstract class BlockTBWSlab extends BlockSlab{
     protected final boolean field_150004_a;
     private static final String __OBFID = "CL_00000253";
 

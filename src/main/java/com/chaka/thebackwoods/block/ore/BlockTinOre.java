@@ -9,5 +9,6 @@ public class BlockTinOre extends BlockTBW {
 
         super(Material.rock);
         this.setBlockName("tinOre");
+        this.setHarvestLevel("pickaxe", 1);
     }
 }

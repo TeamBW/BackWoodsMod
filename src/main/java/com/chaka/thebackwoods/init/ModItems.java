@@ -16,10 +16,13 @@ import com.chaka.thebackwoods.item.other.*;
 import com.chaka.thebackwoods.item.seed.ItemCornSeed;
 import com.chaka.thebackwoods.item.seed.ItemTBWSeed;
 import com.chaka.thebackwoods.item.tool.*;
+import com.chaka.thebackwoods.item.wand.ItemTBWWand;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.material.Material;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemSword;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems {
@@ -80,12 +83,16 @@ public class ModItems {
     public static final ItemTBW copperDust = new ItemCopperDust();
     public static final ItemTBW leadDust = new ItemLeadDust();
 
+    //Wands
+    public static final Item wandWood = new ItemTBWWand();
+
     //Crop
     public static  final  Item itemCornCrop = new ItemCornCrop();
     public static final Item itemCornSeed = new ItemCornSeed(ModBlocks.cornBlock, Blocks.farmland);
 
     //Test
     public static  final  ItemTBWTest testItem = new ItemTest();
+    public static  final ItemSword itemSword = new ItemTBWSword(Item.ToolMaterial.EMERALD);
     public static  final  Item TBWCrop = new ItemTBWCrop();
     public static  final  Item TBWSeed = new ItemTBWSeed(ModBlocks.BlockTBWCrop, Blocks.farmland);
 
@@ -138,12 +145,16 @@ public class ModItems {
         GameRegistry.registerItem(copperDust, "copperDust");
         GameRegistry.registerItem(leadDust, "leadDust");
 
+        //Wand
+        GameRegistry.registerItem(wandWood, "wandWood");
+
         //Crop
         GameRegistry.registerItem(itemCornCrop, "itemCornCrop");
         GameRegistry.registerItem(itemCornSeed, "itemCornSeed");
 
         //Test
         GameRegistry.registerItem(testItem,"testItem");
+        GameRegistry.registerItem(itemSword,"itemSword");
         GameRegistry.registerItem(TBWSeed,"TBWSeed");
         GameRegistry.registerItem(TBWCrop,"TBWCrop");
     }

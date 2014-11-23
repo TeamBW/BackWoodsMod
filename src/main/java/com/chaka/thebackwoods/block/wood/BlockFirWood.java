@@ -18,6 +18,7 @@ public class BlockFirWood extends BlockTBW {
         this.setBlockName("firWood");
         this.setStepSound(soundTypeWood);
         this.setHardness(1.5F);
+        this.setHarvestLevel("axe", 0);
     }
 
     public void registerBlockIcons(IIconRegister icon) {

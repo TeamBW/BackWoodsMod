@@ -9,5 +9,6 @@ public class BlockLeadOre extends BlockTBW {
 
         super(Material.rock);
         this.setBlockName("leadOre");
+        this.setHarvestLevel("pickaxe", 1);
     }
 }

@@ -9,5 +9,6 @@ public class BlockCopperOre extends BlockTBW {
 
         super(Material.rock);
         this.setBlockName("copperOre");
+        this.setHarvestLevel("pickaxe", 1);
     }
 }

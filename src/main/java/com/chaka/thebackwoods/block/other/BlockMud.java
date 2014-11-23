@@ -11,5 +11,6 @@ public class BlockMud extends BlockTBW {
         this.setBlockName("mud");
         this.setStepSound(soundTypeGravel);
         this.setHardness(0.5F);
+        this.setHarvestLevel("shovel", 2);
     }
 }

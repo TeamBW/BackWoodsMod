@@ -13,5 +13,6 @@ public class BlockAmethyst extends BlockTBW {
         this.setBlockName("amethyst");
         this.setStepSound(soundTypeMetal);
         this.setHardness(5.0F);
+        this.setHarvestLevel("pickaxe", 2);
     }
 }

@@ -11,5 +11,6 @@ public class BlockMossyGreatOakWood extends BlockTBW {
         this.setBlockName("mossyGreatOakWood");
         this.setHardness(1.5F);
         this.setStepSound(soundTypeWood);
+        this.setHarvestLevel("axe", 0);
     }
 }

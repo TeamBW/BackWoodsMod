@@ -11,5 +11,6 @@ public class BlockQuickSand extends BlockTBW {
         this.setBlockName("quickSand");
         this.setStepSound(soundTypeSand);
         this.setHardness(0.5F);
+        this.setHarvestLevel("shovel", 3);
     }
 }

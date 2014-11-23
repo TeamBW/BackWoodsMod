@@ -12,6 +12,7 @@ public class BlockGreatOakWood extends BlockTBW {
         this.setBlockName("greatOakWood");
         this.setStepSound(soundTypeWood);
         this.setHardness(1.5F);
+        this.setHarvestLevel("axe", 0);
     }
 
     public boolean canSustainLeaves(IBlockAccess world, int x, int y, int z) {

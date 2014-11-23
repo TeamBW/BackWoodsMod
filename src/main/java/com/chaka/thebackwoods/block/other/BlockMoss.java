@@ -11,6 +11,7 @@ public class BlockMoss extends BlockTBW {
         this.setBlockName("moss");
         this.setStepSound(soundTypeGrass);
         this.setHardness(0.5F);
+        this.setHarvestLevel("axe", 1);
     }
 
     public boolean isOpaqueCube(){
