@@ -16,13 +16,13 @@ import net.minecraft.util.Facing;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public abstract class BlockTBWSlab extends BlockSlab{
+public abstract class BlockTBWSlab extends BlockSlab {
     protected final boolean field_150004_a;
     private static final String __OBFID = "CL_00000253";
 
-    public BlockTBWSlab(Material p_i45410_2_)
+    public BlockTBWSlab()
     {
-        super(p_i45410_2_);
+        super(true, Material.wood);
         boolean p_i45410_1_ = false;
         this.field_150004_a = p_i45410_1_;
 
@@ -36,12 +36,6 @@ public abstract class BlockTBWSlab extends BlockSlab{
         }
 
         this.setLightOpacity(255);
-    }
-
-    public BlockTBWSlab(Material material, boolean field_150004_a) {
-
-        super(Material.wood);
-        this.field_150004_a = field_150004_a;
     }
 
     /**

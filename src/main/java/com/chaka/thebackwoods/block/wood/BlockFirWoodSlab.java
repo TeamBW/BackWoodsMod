@@ -7,7 +7,7 @@ public class BlockFirWoodSlab extends BlockTBWSlab {
 
     public BlockFirWoodSlab(boolean bool, Material material) {
 
-        super(Material.wood);
+        super();
         this.setBlockName("firWoodSlab");
         this.setStepSound(soundTypeWood);
         this.setHardness(1.5F);
